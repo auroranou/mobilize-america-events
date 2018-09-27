@@ -2,7 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { fetchEvents } from './events.actions';
+import EventsList from './EventsList';
 
+/**
+ * Component for connecting to the events state in Redux
+ * (Note that all presentational logic lives in the child components)
+ */
 class EventsLoader extends React.PureComponent {
   static propTypes = {
     events: PropTypes.array.isRequired,
@@ -19,9 +24,7 @@ class EventsLoader extends React.PureComponent {
 
   render() {
     return (
-      <div>
-        {this.props.children}
-      </div>
+      <EventsList events={this.props.events} />
     );
   }
 }
