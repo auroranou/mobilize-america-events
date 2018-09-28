@@ -1,6 +1,5 @@
 import fetch from 'cross-fetch';
 import { handleApiError } from '../error/error.actions';
-import * as events from '../dummyData.json';
 
 export const REQUEST_EVENTS = 'REQUEST_EVENTS';
 export const RECEIVE_EVENTS = 'RECEIVE_EVENTS';

@@ -6,7 +6,6 @@ import thunkMiddleware from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 import rootReducer from './rootReducer';
 
 const loggerMiddleware = createLogger()
@@ -25,5 +24,3 @@ ReactDOM.render(
   </Provider>
   , document.getElementById('root')
 );
-
-registerServiceWorker();
