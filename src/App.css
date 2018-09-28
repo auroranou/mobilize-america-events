@@ -1,8 +1,233 @@
-.events-wrapper {
+/* 
+  Colors borrowed from clrs.cc 
+  https://github.com/mrmrs/colors
+*/
+:root {
+  --navy: #001F3F;
+  --blue: #0074D9;
+  --aqua: #7FDBFF;
+  --teal: #39CCCC;
+  --olive: #3D9970;
+  --green: #2ECC40;
+  --lime: #01FF70;
+  --yellow: #FFDC00;
+  --orange: #FF851B;
+  --red: #FF4136;
+  --fuchsia: #F012BE;
+  --purple: #B10DC9;
+  --maroon: #85144B;
+  --white: #FFFFFF;
+  --gray: #AAAAAA;
+  --silver: #DDDDDD;
+  --black: #111111;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.app {
+  margin-top: 48px;
+}
+
+.app-header {
+  background-color: var(--blue);
+  height: 48px;
+  position: fixed;
+  top: 0;
+  transform : translate3d(0, 0, 0); /*Keep the header from jumping on Chrome */
+  width: 100vw;
+  z-index: 1;
+}
+
+.content-wrapper {
+  margin: auto;
+  max-width: 1200px;
+  padding-top: 12px;
+}
+
+.content-body {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.event-component.active {
-  color: red;
+.content-title {
+  margin: 12px 0;
+  padding: 0 12px;
+}
+
+.events-list {
+  flex-basis: 50%;
+}
+
+.events-map-wrapper {
+  flex-basis: 50%;
+  height: calc(100vh - 120px);
+  position: sticky;
+  top: 120px;
+  width: 100%;
+}
+
+.events-list .event-component {
+  border-bottom: 1px solid var(--silver);
+}
+
+.events-list .event-component:last-child {
+  border-bottom: 0;
+}
+
+.event-component {
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.event-component.event-component--selected {
+  background-color: #ededed;
+}
+
+.event-component .event-component__details-drawer {
+  display: none;
+}
+
+.event-component.event-component--active .event-component__details-drawer {
+  display: block;
+}
+
+.event-component__title-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.event-component__title {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 8px 0 0;
+}
+
+.event-component__badge {
+  background-color: var(--blue);
+  border-radius: 8px;
+  color: white;
+  font-size: 10px;
+  margin: 8px 4px 8px 0;
+  padding: 4px 8px;
+  text-transform: uppercase;
+}
+
+.badge--canvass {
+  background-color: var(--navy);
+}
+
+.badge--phone-bank {
+  background-color: var(--aqua);
+  color: var(--navy);
+}
+
+.badge--text-bank {
+  background-color: var(--teal);
+  color: var(--navy);
+}
+
+.badge--meeting {
+  background-color: var(--olive);
+}
+
+.badge--community {
+  background-color: var(--green);
+}
+
+.badge--fundraiser {
+  background-color: var(--lime);
+}
+
+.badge--meet-greet {
+  background-color: var(--maroon);
+}
+
+.badge--house-party {
+  background-color: var(--orange);
+}
+
+.badge--voter-reg {
+  background-color: var(--purple);
+}
+
+.badge--training {
+  background-color: var(--fuchsia);
+}
+
+.badge--friend-to-friend-outreach {
+  background-color: var(--yellow);
+  color: var(--orange);
+}
+
+.badge--other {
+  background-color: #9a9a9a;
+}
+
+.event-component__address {
+  color: #343434;
+  font-size: 14px;
+  padding: 12px 0;
+}
+
+.event-component__button {
+  background: transparent;
+  border: 0;
+  color: var(--blue);
+  cursor: pointer;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.event-component__details-drawer__section {
+  margin-bottom: 12px;
+}
+
+.event-component__image {
+  height: auto;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.event-component__subtitle {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.event-component__text {
+  font-size: 14px;
+}
+
+.event-component__timeslot {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.events-map-wrapper > div {
+  margin: auto;
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-group {
+  float: left;
+  margin: 12px;
+}
+
+/* Utility classes */
+.bold {
+  font-weight: bold;
 }

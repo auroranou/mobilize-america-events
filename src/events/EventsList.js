@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { selectEventOnMap } from './events.actions';
-import EventComponent, { eventPropTypes } from './EventComponent';
+import EventComponent from './EventComponent';
+import { eventPropTypes } from './EventProps';
 import EmptyState from '../components/EmptyState';
 
 class EventsList extends React.PureComponent {

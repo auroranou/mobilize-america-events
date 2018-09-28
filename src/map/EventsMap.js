@@ -3,7 +3,7 @@ import ReactMapGL, { Marker, NavigationControl, Popup } from 'react-map-gl';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { selectEventOnList } from '../events/events.actions';
-import { eventPropTypes } from '../events/EventComponent';
+import { eventPropTypes } from '../events/EventProps';
 import MapMarker from './MapMarker';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
