@@ -1,6 +1,6 @@
 ## Overview
 
-This app was bootstrapped using [`create-react-app`](). It uses `redux` for state management, `react-map-gl` (a wrapper for Mapbox GL) for interactive maps, and `moment` for date parsing and formatting. Component props are defined using [`prop-types`](https://www.npmjs.com/package/prop-types).
+This app was bootstrapped using [`create-react-app`](). It uses [`redux`](https://redux.js.org) for state management, [`react-map-gl`](https://uber.github.io/react-map-gl) (a wrapper for Mapbox GL) for interactive maps, and [`moment`](https://momentjs.com) for date parsing and formatting. Component props are defined using [`prop-types`](https://www.npmjs.com/package/prop-types).
 
 Events are pulled from [this endpoint](https://github.com/mobilizeamerica/api#list-all-public-events), and event props reflect the API data response shape.
 
