@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { fetchEvents } from './events/events.actions';
@@ -8,7 +8,7 @@ import Alert from './components/Alert';
 import './normalize.css';
 import './App.css';
 
-class App extends Component {
+export class AppComponent extends React.PureComponent {
   static propTypes = {
     error: PropTypes.string,
     fetchEvents: PropTypes.func,
@@ -69,4 +69,4 @@ const mapDispatchToProps = {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(App);
+)(AppComponent);

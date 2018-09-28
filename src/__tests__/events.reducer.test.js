@@ -1,9 +1,11 @@
-import { REQUEST_EVENTS, RECEIVE_EVENTS } from '../events/events.actions';
+import { REQUEST_EVENTS, RECEIVE_EVENTS, SELECT_EVENT_ON_LIST, SELECT_EVENT_ON_MAP } from '../events/events.actions';
 import { eventsReducer } from '../events/events.reducer';
 
 const initialState = {
   events: [],
-  isLoading: false
+  isLoading: false,
+  selectedListEventId: null,
+  selectedMapEventId: null
 };
 
 const dummyEvents = [
@@ -62,7 +64,9 @@ describe('Errors reducer', () => {
       type: REQUEST_EVENTS
     })).toEqual({
       events: [],
-      isLoading: true
+      isLoading: true,
+      selectedListEventId: null,
+      selectedMapEventId: null
     });
   });
 
@@ -72,7 +76,43 @@ describe('Errors reducer', () => {
       payload: dummyEvents
     })).toEqual({
       events: dummyEvents,
-      isLoading: false
+      isLoading: false,
+      selectedListEventId: 1,
+      selectedMapEventId: null
+    });
+  });
+
+  it('should handle SELECT_EVENT_ON_LIST', () => {
+    const state = {
+      ...initialState,
+      events: dummyEvents
+    };
+
+    expect(eventsReducer(state, {
+      type: SELECT_EVENT_ON_LIST,
+      payload: 1
+    })).toEqual({
+      events: dummyEvents,
+      isLoading: false,
+      selectedListEventId: 1,
+      selectedMapEventId: null
+    });
+  });
+
+  it('should handle SELECT_EVENT_ON_MAP', () => {
+    const state = {
+      ...initialState,
+      events: dummyEvents
+    };
+
+    expect(eventsReducer(state, {
+      type: SELECT_EVENT_ON_MAP,
+      payload: 1
+    })).toEqual({
+      events: dummyEvents,
+      isLoading: false,
+      selectedListEventId: 1,
+      selectedMapEventId: 1
     });
   });
 });

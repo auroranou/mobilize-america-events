@@ -28,10 +28,10 @@ export const selectEventOnMap = (eventId) => ({
 
 export const fetchEvents = () => (dispatch) => {
   dispatch(requestEvents());
-  dispatch(receiveEvents(events.data));
-  // getEvents()
-  //   .then(data => dispatch(receiveEvents(data)))
-  //   .catch(err => dispatch(handleApiError(err)));
+
+  getEvents()
+    .then(data => dispatch(receiveEvents(data)))
+    .catch(err => dispatch(handleApiError(err)));
 }
 
 async function getEvents() {

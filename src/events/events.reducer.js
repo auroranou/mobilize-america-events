@@ -16,7 +16,8 @@ export const eventsReducer = (state, action) => {
         ...state,
         isLoading: false,
         events,
-        selectedListEventId: events.length ? events[0].id : null
+        selectedListEventId: events.length ? events[0].id : null,
+        selectedMapEventId: null
       };
 
     case SELECT_EVENT_ON_LIST:

@@ -203,12 +203,6 @@ p {
   margin-bottom: 12px;
 }
 
-.event-component__image {
-  height: auto;
-  margin-bottom: 12px;
-  width: 100%;
-}
-
 .event-component__subtitle {
   font-size: 16px;
   margin: 8px 0;

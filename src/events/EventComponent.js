@@ -9,7 +9,7 @@ class EventComponent extends React.PureComponent {
   static propTypes = {
     event: PropTypes.shape(eventPropTypes).isRequired,
     isSelected: PropTypes.bool,
-    onSelected: PropTypes.func
+    onMapLinkClick: PropTypes.func
   };
 
   constructor(props) {
@@ -132,10 +132,6 @@ class EventComponent extends React.PureComponent {
   renderDetailsDrawer(event) {
     return (
       <div className='event-component__details-drawer'>
-        <img
-          className='event-component__image'
-          src={event.featured_image_url}
-        />
         <div className='event-component__details-drawer__section'>
           <h3 className='event-component__subtitle'>Description</h3>
           <p className='event-component__text'>
@@ -176,7 +172,7 @@ class EventComponent extends React.PureComponent {
 
   onViewOnMapClick(eventId, e) {
     e.preventDefault();
-    this.props.onSelected(eventId);
+    this.props.onMapLinkClick(eventId);
   }
 
   onViewDetailsClick(e) {

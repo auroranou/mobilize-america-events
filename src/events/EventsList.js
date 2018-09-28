@@ -12,13 +12,13 @@ class EventsList extends React.PureComponent {
       PropTypes.shape(eventPropTypes)
     ).isRequired,
     isLoading: PropTypes.bool,
-    selectedEventId: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+    selectedListEventId: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
   };
 
   componentDidUpdate(prevProps) {
-    if ((prevProps.selectedEventId !== this.props.selectedEventId) && (this.props.selectedEventId !== null)) {
+    if ((prevProps.selectedListEventId !== this.props.selectedListEventId) && (this.props.selectedListEventId !== null)) {
       // Get the correct EventComponent node
-      const eventComponentNode = document.getElementById(`event-${this.props.selectedEventId}`);
+      const eventComponentNode = document.getElementById(`event-${this.props.selectedListEventId}`);
 
       if (eventComponentNode) {
         // And scroll it to the top
@@ -28,6 +28,7 @@ class EventsList extends React.PureComponent {
   }
 
   render() {
+    // TO DO: Properly handle loading state
     if (this.props.isLoading || !this.props.events.length) {
       return (<EmptyState message='Sorry, no events were found.' />);
     }
@@ -40,9 +41,9 @@ class EventsList extends React.PureComponent {
         {this.props.events.map(e =>
           <EventComponent
             event={e}
-            isSelected={this.props.selectedEventId.toString() === e.id.toString()}
+            isSelected={this.props.selectedListEventId.toString() === e.id.toString()}
             key={e.id}
-            onSelected={this.props.selectEventOnMap}
+            onMapLinkClick={this.props.selectEventOnMap}
           />
         )}
       </div>
@@ -50,11 +51,7 @@ class EventsList extends React.PureComponent {
   }
 }
 
-const mapStateToProps = (state) => ({
-  events: state.eventsReducer.events,
-  isLoading: false,
-  selectedEventId: state.eventsReducer.selectedListEventId
-});
+const mapStateToProps = (state) => (state.eventsReducer);
 
 const mapDispatchToProps = {
   selectEventOnMap
