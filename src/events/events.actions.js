@@ -4,7 +4,8 @@ import * as events from '../dummyData.json';
 
 export const REQUEST_EVENTS = 'REQUEST_EVENTS';
 export const RECEIVE_EVENTS = 'RECEIVE_EVENTS';
-export const SELECT_EVENT = 'SELECT_EVENT';
+export const SELECT_EVENT_ON_LIST = 'SELECT_EVENT_ON_LIST';
+export const SELECT_EVENT_ON_MAP = 'SELECT_EVENT_ON_MAP';
 
 export const requestEvents = () => ({
   type: REQUEST_EVENTS
@@ -15,8 +16,13 @@ export const receiveEvents = (eventsData) => ({
   payload: eventsData
 });
 
-export const selectEvent = (eventId) => ({
-  type: SELECT_EVENT,
+export const selectEventOnList = (eventId) => ({
+  type: SELECT_EVENT_ON_LIST,
+  payload: eventId
+});
+
+export const selectEventOnMap = (eventId) => ({
+  type: SELECT_EVENT_ON_MAP,
   payload: eventId
 });
 

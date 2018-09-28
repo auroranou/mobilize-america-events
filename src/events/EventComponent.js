@@ -1,5 +1,8 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
+import * as moment from 'moment';
+
+const LONG_DATE_FORMAT = 'dddd, MMMM Do YYYY, h:mm a';
 
 const eventLocationProps = {
   address_lines: PropTypes.arrayOf(PropTypes.string),
@@ -78,51 +81,88 @@ class EventComponent extends React.PureComponent {
   constructor(props) {
     super(props);
 
+    this.state = {
+      showDetails: false
+    }
+
     this.onViewDetailsClick = this.onViewDetailsClick.bind(this);
   }
 
   render() {
-    const { event } = this.props;
+    const { event, isSelected } = this.props;
     const isVirtualEvent = !event.location || !event.location.address_lines || !event.location.location;
-    const eventType = this.getEventTypeText(event.event_type);
+
+    let classNames = 'event-component';
+    if (this.state.showDetails) {
+      classNames += ' event-component--active';
+    }
+
+    if (isSelected) {
+      classNames += ' event-component--selected';
+    }
 
     return (
       <div
-        className='event-component'
+        className={classNames}
         id={`event-${event.id}`}
       >
-        <h3 className='event-component__title'>
-          {event.title}
-        </h3>
-        {this.props.isSelected && <p>SELECTED</p>}
-        <span className={`event-component__badge badge--${eventType.toLowerCase()}`}>
-          {eventType}
-        </span>
-        {isVirtualEvent && (
-          <span className={`event-component__badge badge--virtual`}>
-            Virtual Event
-          </span>
-        )}
+        {this.renderEventTitle(event.title, event.event_type, isVirtualEvent)}
+        {this.renderEventDate(event.timeslots)}
         <p className='event-component__summary'>
           {event.summary}
         </p>
-        {!isVirtualEvent && this.getEventAddress(event.location)}
+        {!isVirtualEvent && this.renderEventAddress(event.id, event.location)}
         <button
+          className='event-component__button'
           onClick={this.onViewDetailsClick}
           type='button'
-          value={event.id}
         >
-          View details
+          {this.state.showDetails ? 'Hide details' : 'View details'}
         </button>
+        {this.renderDetailsDrawer(event)}
       </div>
     );
   }
 
   getEventTypeText(eventType) {
-    return eventType.replace(/_/g, " ");
+    return eventType.replace(/_/g, ' ');
   }
 
-  getEventAddress(location) {
+  getEventTypeClassName(eventType) {
+    return eventType.replace(/_/g, '-').toLowerCase();
+  }
+
+  renderEventTitle(title, eventType, isVirtualEvent) {
+    return (
+      <div className='event-component__title-wrapper'>
+        <h2 className='event-component__title'>
+          {title}
+        </h2>
+        <span className={`event-component__badge badge--${this.getEventTypeClassName(eventType)}`}>
+          {this.getEventTypeText(eventType)}
+        </span>
+        {isVirtualEvent && (
+          <span className={`event-component__badge badge--virtual`}>
+            Virtual Event
+      </span>
+        )}
+      </div>
+    );
+  }
+
+  renderEventDate(timeslots) {
+    if (timeslots.length > 1) {
+      return (<span className='bold'>Multiple times</span>)
+    }
+
+    return (
+      <span className='bold'>
+        {moment(timeslots[0].start_date).format(LONG_DATE_FORMAT)}
+      </span>
+    );
+  }
+
+  renderEventAddress(eventId, location) {
     return (
       <div className='event-component__address'>
         {location.venue && (
@@ -139,14 +179,73 @@ class EventComponent extends React.PureComponent {
           {location.region && location.region}
           {location.region && location.zip_code && ' '}
           {location.zip_code && location.zip_code}
+          <button
+            className='event-component__button'
+            onClick={this.onViewOnMapClick.bind(this, eventId)}
+            type='button'
+          >
+            &nbsp; (View on map)
+          </button>
         </p>
       </div>
     );
   }
 
+  renderDetailsDrawer(event) {
+    return (
+      <div className='event-component__details-drawer'>
+        <img
+          className='event-component__image'
+          src={event.featured_image_url}
+        />
+        <div className='event-component__details-drawer__section'>
+          <h3 className='event-component__subtitle'>Description</h3>
+          <p className='event-component__text'>
+            {event.description}
+          </p>
+        </div>
+        <div className='event-component__details-drawer__section'>
+          <h3 className='event-component__subtitle'>Sponsor</h3>
+          <a
+            className='event-component__text'
+            href={event.sponsor.event_feed_url}
+          >
+            {event.sponsor.name}
+          </a>
+        </div>
+        <div className='event-component__details-drawer__section'>
+          <h3 className='event-component__subtitle'>Timeslots</h3>
+          {event.timeslots.map(t => (
+            <div
+              className='event-component__timeslot'
+              key={t.id}
+            >
+              <span className='bold'>Start: </span>
+              <span>
+                {moment(t.start_date).format('dddd, MMMM Do YYYY, h:mm a')}
+              </span>
+              <br />
+              <span className='bold'>End: </span>
+              <span>
+                {moment(t.end_date).format('dddd, MMMM Do YYYY, h:mm a')}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  onViewOnMapClick(eventId, e) {
+    e.preventDefault();
+    this.props.onSelected(eventId);
+  }
+
   onViewDetailsClick(e) {
     e.preventDefault();
-    this.props.onSelected(e.target.value);
+    this.setState((prevState) => ({
+      showDetails: !prevState.showDetails
+    }));
   }
 }
 

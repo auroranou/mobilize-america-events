@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { selectEvent } from './events.actions';
+import { selectEventOnMap } from './events.actions';
 import EventComponent, { eventPropTypes } from './EventComponent';
 import EmptyState from '../components/EmptyState';
 
@@ -21,7 +21,7 @@ class EventsList extends React.PureComponent {
 
       if (eventComponentNode) {
         // And scroll it to the top
-        window.scrollTo(0, eventComponentNode.offsetTop);
+        window.scrollTo(0, eventComponentNode.offsetTop - 48);
       }
     }
   }
@@ -32,13 +32,16 @@ class EventsList extends React.PureComponent {
     }
 
     return (
-      <div id='events-list'>
+      <div
+        className='events-list'
+        id='events-list'
+      >
         {this.props.events.map(e =>
           <EventComponent
             event={e}
             isSelected={this.props.selectedEventId.toString() === e.id.toString()}
             key={e.id}
-            onSelected={this.props.selectEvent}
+            onSelected={this.props.selectEventOnMap}
           />
         )}
       </div>
@@ -46,10 +49,14 @@ class EventsList extends React.PureComponent {
   }
 }
 
-const mapStateToProps = (state) => (state.eventsReducer);
+const mapStateToProps = (state) => ({
+  events: state.eventsReducer.events,
+  isLoading: false,
+  selectedEventId: state.eventsReducer.selectedListEventId
+});
 
 const mapDispatchToProps = {
-  selectEvent
+  selectEventOnMap
 };
 
 export default connect(

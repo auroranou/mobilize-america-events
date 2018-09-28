@@ -25,9 +25,15 @@ class EventsLoader extends React.PureComponent {
 
   render() {
     return (
-      <div className='events-wrapper'>
-        <EventsList />
-        <EventsMap />
+      <div className='app'>
+        <header className='app-header' />
+        <div className='content-wrapper'>
+          <h1 className='content-title'>Events</h1>
+          <div className='content-body'>
+            <EventsList />
+            <EventsMap />
+          </div>
+        </div>
       </div>
     );
   }

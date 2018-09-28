@@ -2,7 +2,7 @@ import React from 'react';
 import ReactMapGL, { Marker, NavigationControl, Popup } from 'react-map-gl';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { selectEvent } from '../events/events.actions';
+import { selectEventOnList } from '../events/events.actions';
 import { eventPropTypes } from '../events/EventComponent';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -20,8 +20,8 @@ class EventsMap extends React.PureComponent {
     this.state = {
       popup: null,
       viewport: {
-        width: 400,
-        height: 400,
+        width: 600,
+        height: 800,
         latitude: 40.7128,
         longitude: -74.0060,
         zoom: 8
@@ -34,31 +34,41 @@ class EventsMap extends React.PureComponent {
   }
 
   componentDidUpdate(prevProps) {
-    if (prevProps.events !== this.props.events && this.props.events.length > 0) {
-      const newCoordinates = this.props.events[0].location.location;
+    if ((prevProps.selectedEventId !== this.props.selectedEventId) && (this.props.selectedEventId !== null)) {
+      const event = this.props.events.find(e => e.id === this.props.selectedEventId);
+
+      if (!event) return;
+
+      const newCoordinates = event.location.location;
       const newViewport = {
         ...this.state.viewport,
         latitude: newCoordinates.latitude,
         longitude: newCoordinates.longitude
       };
 
-      this.updateViewport(newViewport);
+      this.setState({
+        ...this.state,
+        popup: event,
+        viewport: newViewport
+      });
     }
   }
 
   render() {
     return (
-      <ReactMapGL
-        {...this.state.viewport}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-        onViewportChange={this.updateViewport}
-      >
-        {this.renderMarkers()}
-        {this.renderPopup()}
-        <NavigationControl
+      <div className='events-map-wrapper'>
+        <ReactMapGL
+          {...this.state.viewport}
+          mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
           onViewportChange={this.updateViewport}
-        />
-      </ReactMapGL>
+        >
+          {this.renderMarkers()}
+          {this.renderPopup()}
+          <NavigationControl
+            onViewportChange={this.updateViewport}
+          />
+        </ReactMapGL>
+      </div>
     );
   }
 
@@ -97,7 +107,7 @@ class EventsMap extends React.PureComponent {
 
   onMarkerClick(e) {
     e.preventDefault();
-    this.props.selectEvent(e.target.value);
+    this.props.selectEventOnList(e.target.value);
 
     const selectedEvent = this.props.events.find(ev => ev.id.toString() === e.target.value.toString());
     this.setState({
@@ -124,12 +134,12 @@ const mapStateToProps = (state) => {
 
   return {
     events: eventsWithLocations,
-    selectedEventId: state.eventsReducer.selectedEventId
+    selectedEventId: state.eventsReducer.selectedMapEventId
   }
 }
 
 const mapDispatchToProps = {
-  selectEvent
+  selectEventOnList
 };
 
 export default connect(

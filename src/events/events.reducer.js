@@ -1,4 +1,4 @@
-import { REQUEST_EVENTS, RECEIVE_EVENTS, SELECT_EVENT } from './events.actions';
+import { REQUEST_EVENTS, RECEIVE_EVENTS, SELECT_EVENT_ON_LIST, SELECT_EVENT_ON_MAP } from './events.actions';
 
 export const eventsReducer = (state, action) => {
   switch (action.type) {
@@ -6,7 +6,8 @@ export const eventsReducer = (state, action) => {
       return {
         ...state,
         isLoading: true,
-        selectedEventId: null
+        selectedListEventId: null,
+        selectedMapEventId: null
       };
 
     case RECEIVE_EVENTS:
@@ -15,20 +16,28 @@ export const eventsReducer = (state, action) => {
         ...state,
         isLoading: false,
         events,
-        selectedEventId: events.length ? events[0].id : null
+        selectedListEventId: events.length ? events[0].id : null
       };
 
-    case SELECT_EVENT:
+    case SELECT_EVENT_ON_LIST:
       return {
         ...state,
-        selectedEventId: action.payload
+        selectedListEventId: action.payload
+      };
+
+    case SELECT_EVENT_ON_MAP:
+      return {
+        ...state,
+        selectedListEventId: action.payload,
+        selectedMapEventId: action.payload
       };
 
     default:
       return {
         isLoading: false,
         events: [],
-        selectedEventId: null
+        selectedListEventId: null,
+        selectedMapEventId: null
       };
   }
 }
