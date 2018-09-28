@@ -1,0 +1,3451 @@
+{
+  "count": 28632,
+  "next": "https://events.mobilizeamerica.io/api/v1/events?page=2",
+  "previous": null,
+  "data": [
+    {
+      "id": 1,
+      "description": "Sharpen your canvass skills with our professional organizers",
+      "timezone": "America/New_York",
+      "title": "MobilizeAmerica Canvass Training",
+      "summary": "Sharpen your canvass skills with our professional organizers",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/49be791b96ed6e157f4b83a83e07d5c5_photo_20171218161025903986.jpg",
+      "sponsor": {
+        "id": 1,
+        "name": "Mobilize",
+        "slug": "mobilize",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/mobilize/",
+        "created_date": 1511902789,
+        "modified_date": 1537216950
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "start_date": 1513425600,
+          "end_date": 1513432800
+        }
+      ],
+      "location": null,
+      "event_type": "MEETING",
+      "created_date": 1511904228,
+      "modified_date": 1537281376,
+      "browser_url": "https://events.mobilizeamerica.io/mobilize/event/1/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 4,
+      "description": "After signing up here, you will receive an email to register for our conference call. We will be joined by the team at the Town Hall Project to discuss how you can get involved researching town hall events for state legislatures across the country. All are welcome!",
+      "timezone": "America/New_York",
+      "title": "MobilizeAmerica & Town Hall Project Onboarding Call",
+      "summary": "Join us to learn more about researching town halls for state legislatures across the country",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/event_images/2017/12/07/THP_logo_horizontal_simple.png",
+      "sponsor": {
+        "id": 1,
+        "name": "Mobilize",
+        "slug": "mobilize",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/mobilize/",
+        "created_date": 1511902789,
+        "modified_date": 1537216950
+      },
+      "timeslots": [
+        {
+          "id": 5,
+          "start_date": 1513123200,
+          "end_date": 1513130400
+        }
+      ],
+      "location": null,
+      "event_type": "MEETING",
+      "created_date": 1512507497,
+      "modified_date": 1537281374,
+      "browser_url": "https://events.mobilizeamerica.io/mobilize/event/4/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 5,
+      "description": "Join Spencer Dixon and Young Invincibles to hear more about calling and texting people to get them the resources they need to enroll in healthcare before the December 15 deadline.",
+      "timezone": "America/New_York",
+      "title": "Open Enrollment Training for Calls and Texts",
+      "summary": "",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/event_images/2017/12/07/YI-logo.png",
+      "sponsor": {
+        "id": 1,
+        "name": "Mobilize",
+        "slug": "mobilize",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/mobilize/",
+        "created_date": 1511902789,
+        "modified_date": 1537216950
+      },
+      "timeslots": [
+        {
+          "id": 6,
+          "start_date": 1512759600,
+          "end_date": 1512766800
+        }
+      ],
+      "location": null,
+      "event_type": "MEETING",
+      "created_date": 1512682732,
+      "modified_date": 1537281374,
+      "browser_url": "https://events.mobilizeamerica.io/mobilize/event/5/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 6,
+      "description": "Help people interested in signing up for the ACA get the resources they need by texting a list on GroundGame! Make sure to also call into our training to find out more!",
+      "timezone": "America/New_York",
+      "title": "Texting for the Open Enrollment Deadline",
+      "summary": "",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/event_images/2017/12/07/YI-logo.png",
+      "sponsor": {
+        "id": 1,
+        "name": "Mobilize",
+        "slug": "mobilize",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/mobilize/",
+        "created_date": 1511902789,
+        "modified_date": 1537216950
+      },
+      "timeslots": [
+        {
+          "id": 7,
+          "start_date": 1512741600,
+          "end_date": 1512784800
+        },
+        {
+          "id": 8,
+          "start_date": 1512828000,
+          "end_date": 1512871200
+        },
+        {
+          "id": 9,
+          "start_date": 1512914400,
+          "end_date": 1512957600
+        },
+        {
+          "id": 10,
+          "start_date": 1513000800,
+          "end_date": 1513044000
+        },
+        {
+          "id": 11,
+          "start_date": 1513087200,
+          "end_date": 1513130400
+        },
+        {
+          "id": 12,
+          "start_date": 1513173600,
+          "end_date": 1513216800
+        },
+        {
+          "id": 13,
+          "start_date": 1513260000,
+          "end_date": 1513303200
+        },
+        {
+          "id": 14,
+          "start_date": 1513346400,
+          "end_date": 1513389600
+        }
+      ],
+      "location": null,
+      "event_type": "TEXT_BANK",
+      "created_date": 1512683348,
+      "modified_date": 1537281352,
+      "browser_url": "https://events.mobilizeamerica.io/mobilize/event/6/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 26,
+      "description": "Come and meet us at the Cherrywood Coffeehouse in Austin Texas!\n\nMake a difference while having fun! Just bring your phone all charged up and we'll take care of the rest!",
+      "timezone": "America/Chicago",
+      "title": "Cherrywood Neighborhood: Canvass for Julie!",
+      "summary": "Canvass for Julie!",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/DXJ5lJRU0AEzf0p_20180305030842825057.jpg",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 161,
+          "start_date": 1515862800,
+          "end_date": 1515882600
+        },
+        {
+          "id": 162,
+          "start_date": 1515882600,
+          "end_date": 1515898800
+        },
+        {
+          "id": 164,
+          "start_date": 1515969000,
+          "end_date": 1515985200
+        },
+        {
+          "id": 163,
+          "start_date": 1515992400,
+          "end_date": 1515969000
+        },
+        {
+          "id": 165,
+          "start_date": 1516035600,
+          "end_date": 1516055400
+        },
+        {
+          "id": 166,
+          "start_date": 1516055400,
+          "end_date": 1516071600
+        },
+        {
+          "id": 167,
+          "start_date": 1516122000,
+          "end_date": 1516141800
+        },
+        {
+          "id": 169,
+          "start_date": 1516208400,
+          "end_date": 1516228200
+        },
+        {
+          "id": 170,
+          "start_date": 1516228200,
+          "end_date": 1516244400
+        },
+        {
+          "id": 171,
+          "start_date": 1516294800,
+          "end_date": 1516314600
+        },
+        {
+          "id": 172,
+          "start_date": 1516314600,
+          "end_date": 1516330800
+        },
+        {
+          "id": 173,
+          "start_date": 1516381200,
+          "end_date": 1516401000
+        },
+        {
+          "id": 174,
+          "start_date": 1516401000,
+          "end_date": 1516417200
+        },
+        {
+          "id": 175,
+          "start_date": 1516467600,
+          "end_date": 1516487400
+        },
+        {
+          "id": 179,
+          "start_date": 1516640400,
+          "end_date": 1516660200
+        },
+        {
+          "id": 180,
+          "start_date": 1516660200,
+          "end_date": 1516676400
+        },
+        {
+          "id": 181,
+          "start_date": 1516726800,
+          "end_date": 1516746600
+        },
+        {
+          "id": 182,
+          "start_date": 1516746600,
+          "end_date": 1516762800
+        },
+        {
+          "id": 183,
+          "start_date": 1516813200,
+          "end_date": 1516833000
+        },
+        {
+          "id": 184,
+          "start_date": 1516833000,
+          "end_date": 1516849200
+        },
+        {
+          "id": 358,
+          "start_date": 1516896000,
+          "end_date": 1516919400
+        },
+        {
+          "id": 185,
+          "start_date": 1516899600,
+          "end_date": 1516919400
+        },
+        {
+          "id": 186,
+          "start_date": 1516919400,
+          "end_date": 1516935600
+        },
+        {
+          "id": 359,
+          "start_date": 1516982400,
+          "end_date": 1517005800
+        },
+        {
+          "id": 187,
+          "start_date": 1516986000,
+          "end_date": 1517005800
+        },
+        {
+          "id": 188,
+          "start_date": 1517005800,
+          "end_date": 1517022000
+        },
+        {
+          "id": 360,
+          "start_date": 1517068800,
+          "end_date": 1517092200
+        },
+        {
+          "id": 189,
+          "start_date": 1517072400,
+          "end_date": 1517092200
+        },
+        {
+          "id": 190,
+          "start_date": 1517092200,
+          "end_date": 1517108400
+        },
+        {
+          "id": 361,
+          "start_date": 1517155200,
+          "end_date": 1517178600
+        },
+        {
+          "id": 191,
+          "start_date": 1517158800,
+          "end_date": 1517178600
+        },
+        {
+          "id": 192,
+          "start_date": 1517178600,
+          "end_date": 1517194800
+        },
+        {
+          "id": 362,
+          "start_date": 1517241600,
+          "end_date": 1517265000
+        },
+        {
+          "id": 193,
+          "start_date": 1517245200,
+          "end_date": 1517265000
+        },
+        {
+          "id": 194,
+          "start_date": 1517265000,
+          "end_date": 1517281200
+        },
+        {
+          "id": 363,
+          "start_date": 1517328000,
+          "end_date": 1517351400
+        },
+        {
+          "id": 195,
+          "start_date": 1517331600,
+          "end_date": 1517351400
+        },
+        {
+          "id": 196,
+          "start_date": 1517351400,
+          "end_date": 1517360400
+        },
+        {
+          "id": 197,
+          "start_date": 1517418000,
+          "end_date": 1517437800
+        },
+        {
+          "id": 198,
+          "start_date": 1517437800,
+          "end_date": 1517446800
+        },
+        {
+          "id": 403,
+          "start_date": 1517524200,
+          "end_date": 1517533200
+        },
+        {
+          "id": 404,
+          "start_date": 1517610600,
+          "end_date": 1517619600
+        },
+        {
+          "id": 405,
+          "start_date": 1517673600,
+          "end_date": 1517688000
+        },
+        {
+          "id": 406,
+          "start_date": 1517686200,
+          "end_date": 1517695200
+        },
+        {
+          "id": 407,
+          "start_date": 1517760000,
+          "end_date": 1517774400
+        },
+        {
+          "id": 408,
+          "start_date": 1517772600,
+          "end_date": 1517781600
+        },
+        {
+          "id": 620,
+          "start_date": 1517846400,
+          "end_date": 1517868000
+        },
+        {
+          "id": 621,
+          "start_date": 1517864400,
+          "end_date": 1517882400
+        },
+        {
+          "id": 622,
+          "start_date": 1517932800,
+          "end_date": 1517954400
+        },
+        {
+          "id": 623,
+          "start_date": 1517950800,
+          "end_date": 1517968800
+        },
+        {
+          "id": 624,
+          "start_date": 1518019200,
+          "end_date": 1518040800
+        },
+        {
+          "id": 625,
+          "start_date": 1518037200,
+          "end_date": 1518055200
+        },
+        {
+          "id": 626,
+          "start_date": 1518105600,
+          "end_date": 1518127200
+        },
+        {
+          "id": 627,
+          "start_date": 1518123600,
+          "end_date": 1518141600
+        },
+        {
+          "id": 628,
+          "start_date": 1518192000,
+          "end_date": 1518213600
+        },
+        {
+          "id": 629,
+          "start_date": 1518210000,
+          "end_date": 1518228000
+        },
+        {
+          "id": 630,
+          "start_date": 1518278400,
+          "end_date": 1518300000
+        },
+        {
+          "id": 632,
+          "start_date": 1518364800,
+          "end_date": 1518386400
+        },
+        {
+          "id": 633,
+          "start_date": 1518382800,
+          "end_date": 1518400800
+        },
+        {
+          "id": 634,
+          "start_date": 1518451200,
+          "end_date": 1518472800
+        },
+        {
+          "id": 635,
+          "start_date": 1518537600,
+          "end_date": 1518559200
+        },
+        {
+          "id": 631,
+          "start_date": 1518624000,
+          "end_date": 1518645600
+        },
+        {
+          "id": 754,
+          "start_date": 1518710400,
+          "end_date": 1518732000
+        },
+        {
+          "id": 755,
+          "start_date": 1518796800,
+          "end_date": 1518818400
+        },
+        {
+          "id": 756,
+          "start_date": 1518883200,
+          "end_date": 1518904800
+        },
+        {
+          "id": 757,
+          "start_date": 1518969600,
+          "end_date": 1518991200
+        },
+        {
+          "id": 843,
+          "start_date": 1519056000,
+          "end_date": 1519077600
+        },
+        {
+          "id": 844,
+          "start_date": 1519142400,
+          "end_date": 1519164000
+        },
+        {
+          "id": 845,
+          "start_date": 1519228800,
+          "end_date": 1519250400
+        },
+        {
+          "id": 846,
+          "start_date": 1519315200,
+          "end_date": 1519336800
+        },
+        {
+          "id": 847,
+          "start_date": 1519401600,
+          "end_date": 1519423200
+        },
+        {
+          "id": 848,
+          "start_date": 1519488000,
+          "end_date": 1519509600
+        },
+        {
+          "id": 849,
+          "start_date": 1519574400,
+          "end_date": 1519596000
+        },
+        {
+          "id": 1636,
+          "start_date": 1519588800,
+          "end_date": 1519603200
+        },
+        {
+          "id": 1637,
+          "start_date": 1519660800,
+          "end_date": 1519689600
+        },
+        {
+          "id": 1638,
+          "start_date": 1519747200,
+          "end_date": 1519776000
+        },
+        {
+          "id": 1639,
+          "start_date": 1519833600,
+          "end_date": 1519862400
+        },
+        {
+          "id": 1640,
+          "start_date": 1519920000,
+          "end_date": 1519948800
+        },
+        {
+          "id": 1641,
+          "start_date": 1520006400,
+          "end_date": 1520035200
+        },
+        {
+          "id": 1642,
+          "start_date": 1520092800,
+          "end_date": 1520121600
+        },
+        {
+          "id": 1643,
+          "start_date": 1520179200,
+          "end_date": 1520208000
+        },
+        {
+          "id": 1644,
+          "start_date": 1520265600,
+          "end_date": 1520294400
+        },
+        {
+          "id": 1645,
+          "start_date": 1520352000,
+          "end_date": 1520380800
+        },
+        {
+          "id": 6093,
+          "start_date": 1521309600,
+          "end_date": 1521320400
+        },
+        {
+          "id": 6094,
+          "start_date": 1521903600,
+          "end_date": 1521912600
+        },
+        {
+          "id": 6103,
+          "start_date": 1521914400,
+          "end_date": 1521925200
+        },
+        {
+          "id": 6112,
+          "start_date": 1522000800,
+          "end_date": 1522011600
+        },
+        {
+          "id": 6095,
+          "start_date": 1522508400,
+          "end_date": 1522517400
+        },
+        {
+          "id": 6104,
+          "start_date": 1522519200,
+          "end_date": 1522530000
+        },
+        {
+          "id": 6113,
+          "start_date": 1522605600,
+          "end_date": 1522616400
+        },
+        {
+          "id": 6096,
+          "start_date": 1523113200,
+          "end_date": 1523122200
+        },
+        {
+          "id": 6105,
+          "start_date": 1523124000,
+          "end_date": 1523134800
+        },
+        {
+          "id": 6114,
+          "start_date": 1523210400,
+          "end_date": 1523221200
+        },
+        {
+          "id": 6097,
+          "start_date": 1523718000,
+          "end_date": 1523727000
+        },
+        {
+          "id": 6106,
+          "start_date": 1523728800,
+          "end_date": 1523739600
+        },
+        {
+          "id": 6115,
+          "start_date": 1523815200,
+          "end_date": 1523826000
+        },
+        {
+          "id": 6098,
+          "start_date": 1524322800,
+          "end_date": 1524331800
+        },
+        {
+          "id": 6107,
+          "start_date": 1524333600,
+          "end_date": 1524344400
+        },
+        {
+          "id": 6116,
+          "start_date": 1524420000,
+          "end_date": 1524430800
+        },
+        {
+          "id": 6099,
+          "start_date": 1524927600,
+          "end_date": 1524936600
+        },
+        {
+          "id": 6108,
+          "start_date": 1524938400,
+          "end_date": 1524949200
+        },
+        {
+          "id": 6117,
+          "start_date": 1525024800,
+          "end_date": 1525035600
+        },
+        {
+          "id": 6100,
+          "start_date": 1525532400,
+          "end_date": 1525541400
+        },
+        {
+          "id": 6109,
+          "start_date": 1525543200,
+          "end_date": 1525554000
+        },
+        {
+          "id": 6118,
+          "start_date": 1525629600,
+          "end_date": 1525640400
+        },
+        {
+          "id": 6101,
+          "start_date": 1526137200,
+          "end_date": 1526146200
+        },
+        {
+          "id": 6110,
+          "start_date": 1526148000,
+          "end_date": 1526158800
+        },
+        {
+          "id": 6119,
+          "start_date": 1526234400,
+          "end_date": 1526245200
+        },
+        {
+          "id": 6102,
+          "start_date": 1526742000,
+          "end_date": 1526751000
+        },
+        {
+          "id": 6111,
+          "start_date": 1526752800,
+          "end_date": 1526763600
+        },
+        {
+          "id": 6120,
+          "start_date": 1526839200,
+          "end_date": 1526850000
+        },
+        {
+          "id": 13870,
+          "start_date": 1526914800,
+          "end_date": 1526936400
+        },
+        {
+          "id": 13871,
+          "start_date": 1527001200,
+          "end_date": 1527022800
+        },
+        {
+          "id": 23726,
+          "start_date": 1529168400,
+          "end_date": 1529182800
+        },
+        {
+          "id": 24162,
+          "start_date": 1529361000,
+          "end_date": 1529371800
+        }
+      ],
+      "location": {
+        "venue": "Cherrywood Coffeehouse",
+        "address_lines": [
+          "1400 E 38th 1/2 St.",
+          ""
+        ],
+        "locality": "Austin",
+        "region": "TX",
+        "postal_code": "78702",
+        "location": {
+          "latitude": 30.2935421,
+          "longitude": -97.716
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "CANVASS",
+      "created_date": 1515719207,
+      "modified_date": 1537280503,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/26/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 28,
+      "description": "Join us for a phonebank party to make calls to Texas voters, identify Julie supporters, and get out the vote for the March 6th primary! \n\nPlease bring your laptop, headphones, and cell phone.",
+      "timezone": "America/Chicago",
+      "title": "Election Eve Phonebank for Julie!",
+      "summary": "",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/DSOqLpPUMAIiLOu_20180112023653687503.jpg",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 200,
+          "start_date": 1516294800,
+          "end_date": 1516314600
+        },
+        {
+          "id": 201,
+          "start_date": 1516314600,
+          "end_date": 1516330800
+        },
+        {
+          "id": 202,
+          "start_date": 1516381200,
+          "end_date": 1516401000
+        },
+        {
+          "id": 203,
+          "start_date": 1516399200,
+          "end_date": 1516417200
+        },
+        {
+          "id": 205,
+          "start_date": 1516487400,
+          "end_date": 1516503600
+        },
+        {
+          "id": 206,
+          "start_date": 1516554000,
+          "end_date": 1516573800
+        },
+        {
+          "id": 207,
+          "start_date": 1516573800,
+          "end_date": 1516590000
+        },
+        {
+          "id": 208,
+          "start_date": 1516640400,
+          "end_date": 1516660200
+        },
+        {
+          "id": 209,
+          "start_date": 1516660200,
+          "end_date": 1516676400
+        },
+        {
+          "id": 210,
+          "start_date": 1516726800,
+          "end_date": 1516746600
+        },
+        {
+          "id": 211,
+          "start_date": 1516746600,
+          "end_date": 1516762800
+        },
+        {
+          "id": 212,
+          "start_date": 1516813200,
+          "end_date": 1516833000
+        },
+        {
+          "id": 213,
+          "start_date": 1516833000,
+          "end_date": 1516849200
+        },
+        {
+          "id": 214,
+          "start_date": 1516899600,
+          "end_date": 1516919400
+        },
+        {
+          "id": 215,
+          "start_date": 1516919400,
+          "end_date": 1516935600
+        },
+        {
+          "id": 216,
+          "start_date": 1516986000,
+          "end_date": 1517005800
+        },
+        {
+          "id": 217,
+          "start_date": 1517005800,
+          "end_date": 1517022000
+        },
+        {
+          "id": 218,
+          "start_date": 1517072400,
+          "end_date": 1517092200
+        },
+        {
+          "id": 219,
+          "start_date": 1517092200,
+          "end_date": 1517108400
+        },
+        {
+          "id": 390,
+          "start_date": 1517331600,
+          "end_date": 1517351400
+        },
+        {
+          "id": 391,
+          "start_date": 1517418000,
+          "end_date": 1517437800
+        },
+        {
+          "id": 388,
+          "start_date": 1517436000,
+          "end_date": 1517454000
+        },
+        {
+          "id": 392,
+          "start_date": 1517506200,
+          "end_date": 1517524200
+        },
+        {
+          "id": 412,
+          "start_date": 1517522400,
+          "end_date": 1517540400
+        },
+        {
+          "id": 614,
+          "start_date": 1518134400,
+          "end_date": 1518145200
+        },
+        {
+          "id": 735,
+          "start_date": 1518480000,
+          "end_date": 1518490800
+        },
+        {
+          "id": 736,
+          "start_date": 1518566400,
+          "end_date": 1518577200
+        },
+        {
+          "id": 737,
+          "start_date": 1518652800,
+          "end_date": 1518663600
+        },
+        {
+          "id": 738,
+          "start_date": 1518739200,
+          "end_date": 1518750000
+        },
+        {
+          "id": 739,
+          "start_date": 1518825600,
+          "end_date": 1518836400
+        },
+        {
+          "id": 740,
+          "start_date": 1518912000,
+          "end_date": 1518922800
+        },
+        {
+          "id": 741,
+          "start_date": 1518998400,
+          "end_date": 1519009200
+        },
+        {
+          "id": 742,
+          "start_date": 1519084800,
+          "end_date": 1519095600
+        },
+        {
+          "id": 850,
+          "start_date": 1519171200,
+          "end_date": 1519182000
+        },
+        {
+          "id": 851,
+          "start_date": 1519257600,
+          "end_date": 1519268400
+        },
+        {
+          "id": 1005,
+          "start_date": 1519344000,
+          "end_date": 1519354800
+        },
+        {
+          "id": 1006,
+          "start_date": 1519430400,
+          "end_date": 1519441200
+        },
+        {
+          "id": 1007,
+          "start_date": 1519516800,
+          "end_date": 1519527600
+        },
+        {
+          "id": 1650,
+          "start_date": 1519596000,
+          "end_date": 1519599600
+        },
+        {
+          "id": 1651,
+          "start_date": 1519660800,
+          "end_date": 1519686000
+        },
+        {
+          "id": 1652,
+          "start_date": 1519747200,
+          "end_date": 1519772400
+        },
+        {
+          "id": 1653,
+          "start_date": 1519833600,
+          "end_date": 1519858800
+        },
+        {
+          "id": 1654,
+          "start_date": 1519920000,
+          "end_date": 1519945200
+        },
+        {
+          "id": 1655,
+          "start_date": 1520006400,
+          "end_date": 1520031600
+        },
+        {
+          "id": 1656,
+          "start_date": 1520092800,
+          "end_date": 1520118000
+        },
+        {
+          "id": 1657,
+          "start_date": 1520179200,
+          "end_date": 1520204400
+        },
+        {
+          "id": 1658,
+          "start_date": 1520265600,
+          "end_date": 1520280000
+        },
+        {
+          "id": 1846,
+          "start_date": 1520280000,
+          "end_date": 1520294400
+        },
+        {
+          "id": 1849,
+          "start_date": 1520294400,
+          "end_date": 1520305200
+        },
+        {
+          "id": 1659,
+          "start_date": 1520352000,
+          "end_date": 1520366400
+        },
+        {
+          "id": 1847,
+          "start_date": 1520366400,
+          "end_date": 1520380800
+        },
+        {
+          "id": 1848,
+          "start_date": 1520380800,
+          "end_date": 1520391600
+        }
+      ],
+      "location": {
+        "venue": "Campaign HQ",
+        "address_lines": [
+          "1204 1/2 S Congress",
+          "Austin"
+        ],
+        "locality": "TX",
+        "region": "TX",
+        "postal_code": "78704",
+        "location": {
+          "latitude": null,
+          "longitude": null
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "PHONE_BANK",
+      "created_date": 1515730115,
+      "modified_date": 1537281338,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/28/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 31,
+      "description": "So many of Julie's supporters have opened their home to her, and she needs volunteers to man the table at the event entrance to make sure we get every attendee's completed sign-in info and to answer any questions attendees have. \n\nThese events are short, and everyone is extremely friendly and excited about helping Julie win in 2018.\n\nVolunteers arrive 30 minutes before hand to meet, hand out Julie t-shirts to volunteers, gather materials, and go over the game plan. \n\nThis meet and greet is being held at a private residence in Austin and we'll send details as soon as you sign up for a shift.",
+      "timezone": "America/Chicago",
+      "title": "Volunteer for Julie at an Austin Meet and Greet!",
+      "summary": "A great way to help Julie!",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/IMG_0173_20180112173123948550.JPG",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 260,
+          "start_date": 1515965400,
+          "end_date": 1515972600
+        },
+        {
+          "id": 318,
+          "start_date": 1517167800,
+          "end_date": 1517176800
+        },
+        {
+          "id": 317,
+          "start_date": 1517176800,
+          "end_date": 1517185800
+        }
+      ],
+      "location": {
+        "venue": "Private Residence",
+        "address_lines": [
+          "",
+          ""
+        ],
+        "locality": "Austin",
+        "region": "TX",
+        "postal_code": "78705",
+        "location": {
+          "latitude": null,
+          "longitude": null
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "MEET_GREET",
+      "created_date": 1515778514,
+      "modified_date": 1537281329,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/31/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 32,
+      "description": "Meeting address: \n\n204 S Main Street, \nCleburne TX 76033\n\nTime: 1:30pm - 3pm\n\nWe'll meet right on Main street in downtown Cleburne to hand out Julie t-shirts to volunteers, materials, and go over the game plan. \n\nThe event lasts until 5pm. This should be super easy. Julie needs volunteers manning the table to make sure we're getting every attendee to sign-in and to answer any questions attendees have.\n\nA coordinator with the campaign will be on-site to meet you, and as soon as you sign up for your shift they'll be in touch to hammer out the details!",
+      "timezone": "America/Chicago",
+      "title": "Cleburne: Volunteer for Julie at the PDA Open House!",
+      "summary": "A great way to spread the word about Julie with progressives from all over Johnson County",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/DSPjJOzVQAECzLN_20180112180707830891.jpg",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 261,
+          "start_date": 1515958200,
+          "end_date": 1515963600
+        },
+        {
+          "id": 262,
+          "start_date": 1515963600,
+          "end_date": 1515970800
+        }
+      ],
+      "location": {
+        "venue": "PDA HQ in Downtown Cleburne",
+        "address_lines": [
+          "204 S Main Street",
+          ""
+        ],
+        "locality": "Cleburne",
+        "region": "TX",
+        "postal_code": "76033",
+        "location": {
+          "latitude": null,
+          "longitude": null
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "COMMUNITY",
+      "created_date": 1515780501,
+      "modified_date": 1537281369,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/32/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 35,
+      "description": "Nothing is as effective as knocking doors and in-person conversations with folks about what is going to make things better for our state and our country. \n\nBut if you don't live in District 25, you can still volunteer with our campaign and help Julie win, using our friend-to-friend outreach platform. \n\nIt figures out in real time which of your contacts are registered voters in District 25, and it lets you send a warm message friend-to-friend, as opposed to using the traditional mass-email-blast outreach process.",
+      "timezone": "America/Chicago",
+      "title": "Digital Canvassing for Julie from your laptop!",
+      "summary": "20 Minutes from your laptop - anywhere in the world, any time of day.",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/votercircle_share_link%402x-100_20180113222124637685.jpg",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 281,
+          "start_date": 1515909600,
+          "end_date": 1515954600
+        },
+        {
+          "id": 271,
+          "start_date": 1515938400,
+          "end_date": 1515909600
+        },
+        {
+          "id": 282,
+          "start_date": 1515952800,
+          "end_date": 1515954600
+        },
+        {
+          "id": 272,
+          "start_date": 1516039200,
+          "end_date": 1516041000
+        },
+        {
+          "id": 273,
+          "start_date": 1516125600,
+          "end_date": 1516127400
+        },
+        {
+          "id": 274,
+          "start_date": 1516212000,
+          "end_date": 1516213800
+        },
+        {
+          "id": 275,
+          "start_date": 1516298400,
+          "end_date": 1516300200
+        },
+        {
+          "id": 276,
+          "start_date": 1516384800,
+          "end_date": 1516386600
+        },
+        {
+          "id": 277,
+          "start_date": 1516471200,
+          "end_date": 1516473000
+        },
+        {
+          "id": 278,
+          "start_date": 1516557600,
+          "end_date": 1516559400
+        },
+        {
+          "id": 279,
+          "start_date": 1516644000,
+          "end_date": 1516645800
+        },
+        {
+          "id": 280,
+          "start_date": 1516730400,
+          "end_date": 1516732200
+        },
+        {
+          "id": 366,
+          "start_date": 1516896000,
+          "end_date": 1516919400
+        },
+        {
+          "id": 367,
+          "start_date": 1516919400,
+          "end_date": 1516935600
+        },
+        {
+          "id": 368,
+          "start_date": 1516982400,
+          "end_date": 1517005800
+        },
+        {
+          "id": 369,
+          "start_date": 1517005800,
+          "end_date": 1517022000
+        },
+        {
+          "id": 370,
+          "start_date": 1517068800,
+          "end_date": 1517092200
+        },
+        {
+          "id": 371,
+          "start_date": 1517092200,
+          "end_date": 1517108400
+        },
+        {
+          "id": 372,
+          "start_date": 1517155200,
+          "end_date": 1517178600
+        },
+        {
+          "id": 373,
+          "start_date": 1517178600,
+          "end_date": 1517194800
+        },
+        {
+          "id": 383,
+          "start_date": 1517266800,
+          "end_date": 1517281200
+        },
+        {
+          "id": 384,
+          "start_date": 1517328000,
+          "end_date": 1517344200
+        },
+        {
+          "id": 385,
+          "start_date": 1517344200,
+          "end_date": 1517356800
+        },
+        {
+          "id": 386,
+          "start_date": 1517349600,
+          "end_date": 1517367600
+        },
+        {
+          "id": 413,
+          "start_date": 1517500800,
+          "end_date": 1517515200
+        },
+        {
+          "id": 414,
+          "start_date": 1517515200,
+          "end_date": 1517529600
+        },
+        {
+          "id": 415,
+          "start_date": 1517587200,
+          "end_date": 1517601600
+        },
+        {
+          "id": 416,
+          "start_date": 1517601600,
+          "end_date": 1517616000
+        },
+        {
+          "id": 417,
+          "start_date": 1517673600,
+          "end_date": 1517688000
+        },
+        {
+          "id": 418,
+          "start_date": 1517688000,
+          "end_date": 1517702400
+        },
+        {
+          "id": 419,
+          "start_date": 1517760000,
+          "end_date": 1517774400
+        },
+        {
+          "id": 636,
+          "start_date": 1517770800,
+          "end_date": 1517724000
+        },
+        {
+          "id": 420,
+          "start_date": 1517774400,
+          "end_date": 1517788800
+        },
+        {
+          "id": 638,
+          "start_date": 1517868000,
+          "end_date": 1517810400
+        },
+        {
+          "id": 637,
+          "start_date": 1518451200,
+          "end_date": 1518472800
+        },
+        {
+          "id": 639,
+          "start_date": 1518537600,
+          "end_date": 1518559200
+        },
+        {
+          "id": 640,
+          "start_date": 1518624000,
+          "end_date": 1518645600
+        },
+        {
+          "id": 749,
+          "start_date": 1518710400,
+          "end_date": 1518732000
+        },
+        {
+          "id": 750,
+          "start_date": 1518796800,
+          "end_date": 1518818400
+        },
+        {
+          "id": 751,
+          "start_date": 1518883200,
+          "end_date": 1518904800
+        },
+        {
+          "id": 752,
+          "start_date": 1518969600,
+          "end_date": 1518991200
+        },
+        {
+          "id": 999,
+          "start_date": 1519056000,
+          "end_date": 1519077600
+        },
+        {
+          "id": 1000,
+          "start_date": 1519142400,
+          "end_date": 1519164000
+        },
+        {
+          "id": 1001,
+          "start_date": 1519228800,
+          "end_date": 1519250400
+        },
+        {
+          "id": 1002,
+          "start_date": 1519315200,
+          "end_date": 1519336800
+        },
+        {
+          "id": 1003,
+          "start_date": 1519401600,
+          "end_date": 1519423200
+        },
+        {
+          "id": 1004,
+          "start_date": 1519488000,
+          "end_date": 1519509600
+        },
+        {
+          "id": 1660,
+          "start_date": 1519596000,
+          "end_date": 1519610400
+        },
+        {
+          "id": 1661,
+          "start_date": 1519660800,
+          "end_date": 1519682400
+        },
+        {
+          "id": 1662,
+          "start_date": 1519747200,
+          "end_date": 1519768800
+        },
+        {
+          "id": 1663,
+          "start_date": 1519833600,
+          "end_date": 1519855200
+        },
+        {
+          "id": 1664,
+          "start_date": 1519920000,
+          "end_date": 1519941600
+        },
+        {
+          "id": 1665,
+          "start_date": 1520006400,
+          "end_date": 1520028000
+        },
+        {
+          "id": 1666,
+          "start_date": 1520092800,
+          "end_date": 1520114400
+        },
+        {
+          "id": 1667,
+          "start_date": 1520179200,
+          "end_date": 1520200800
+        },
+        {
+          "id": 1668,
+          "start_date": 1520265600,
+          "end_date": 1520287200
+        },
+        {
+          "id": 1669,
+          "start_date": 1520352000,
+          "end_date": 1520373600
+        },
+        {
+          "id": 6121,
+          "start_date": 1520866800,
+          "end_date": 1520870400
+        },
+        {
+          "id": 6122,
+          "start_date": 1520953200,
+          "end_date": 1520956800
+        },
+        {
+          "id": 6123,
+          "start_date": 1521039600,
+          "end_date": 1521043200
+        },
+        {
+          "id": 6124,
+          "start_date": 1521126000,
+          "end_date": 1521129600
+        },
+        {
+          "id": 6125,
+          "start_date": 1521212400,
+          "end_date": 1521216000
+        },
+        {
+          "id": 6126,
+          "start_date": 1521298800,
+          "end_date": 1521302400
+        },
+        {
+          "id": 6127,
+          "start_date": 1521385200,
+          "end_date": 1521388800
+        },
+        {
+          "id": 6128,
+          "start_date": 1521471600,
+          "end_date": 1521475200
+        },
+        {
+          "id": 6129,
+          "start_date": 1521558000,
+          "end_date": 1521561600
+        },
+        {
+          "id": 6130,
+          "start_date": 1521644400,
+          "end_date": 1521648000
+        },
+        {
+          "id": 6131,
+          "start_date": 1521730800,
+          "end_date": 1521734400
+        },
+        {
+          "id": 6132,
+          "start_date": 1521817200,
+          "end_date": 1521820800
+        },
+        {
+          "id": 6133,
+          "start_date": 1521903600,
+          "end_date": 1521907200
+        },
+        {
+          "id": 6134,
+          "start_date": 1521990000,
+          "end_date": 1521993600
+        },
+        {
+          "id": 6135,
+          "start_date": 1522076400,
+          "end_date": 1522080000
+        },
+        {
+          "id": 6136,
+          "start_date": 1522162800,
+          "end_date": 1522166400
+        },
+        {
+          "id": 6137,
+          "start_date": 1522249200,
+          "end_date": 1522252800
+        },
+        {
+          "id": 6138,
+          "start_date": 1522335600,
+          "end_date": 1522339200
+        },
+        {
+          "id": 6139,
+          "start_date": 1522422000,
+          "end_date": 1522425600
+        },
+        {
+          "id": 6140,
+          "start_date": 1522508400,
+          "end_date": 1522512000
+        },
+        {
+          "id": 6141,
+          "start_date": 1522594800,
+          "end_date": 1522598400
+        },
+        {
+          "id": 6142,
+          "start_date": 1522681200,
+          "end_date": 1522684800
+        },
+        {
+          "id": 6143,
+          "start_date": 1522767600,
+          "end_date": 1522771200
+        },
+        {
+          "id": 6144,
+          "start_date": 1522854000,
+          "end_date": 1522857600
+        },
+        {
+          "id": 6145,
+          "start_date": 1522940400,
+          "end_date": 1522944000
+        },
+        {
+          "id": 6146,
+          "start_date": 1523026800,
+          "end_date": 1523030400
+        },
+        {
+          "id": 6147,
+          "start_date": 1523113200,
+          "end_date": 1523116800
+        },
+        {
+          "id": 6148,
+          "start_date": 1523199600,
+          "end_date": 1523203200
+        },
+        {
+          "id": 6149,
+          "start_date": 1523286000,
+          "end_date": 1523289600
+        },
+        {
+          "id": 6150,
+          "start_date": 1523372400,
+          "end_date": 1523376000
+        },
+        {
+          "id": 6151,
+          "start_date": 1523458800,
+          "end_date": 1523462400
+        },
+        {
+          "id": 6152,
+          "start_date": 1523545200,
+          "end_date": 1523548800
+        },
+        {
+          "id": 6153,
+          "start_date": 1523631600,
+          "end_date": 1523635200
+        },
+        {
+          "id": 6154,
+          "start_date": 1523718000,
+          "end_date": 1523721600
+        },
+        {
+          "id": 6155,
+          "start_date": 1523804400,
+          "end_date": 1523808000
+        },
+        {
+          "id": 6156,
+          "start_date": 1523890800,
+          "end_date": 1523894400
+        },
+        {
+          "id": 6157,
+          "start_date": 1523977200,
+          "end_date": 1523980800
+        },
+        {
+          "id": 6158,
+          "start_date": 1524063600,
+          "end_date": 1524067200
+        },
+        {
+          "id": 6159,
+          "start_date": 1524150000,
+          "end_date": 1524153600
+        },
+        {
+          "id": 6160,
+          "start_date": 1524236400,
+          "end_date": 1524240000
+        },
+        {
+          "id": 6161,
+          "start_date": 1524322800,
+          "end_date": 1524326400
+        },
+        {
+          "id": 6162,
+          "start_date": 1524409200,
+          "end_date": 1524412800
+        },
+        {
+          "id": 6163,
+          "start_date": 1524495600,
+          "end_date": 1524499200
+        },
+        {
+          "id": 6164,
+          "start_date": 1524582000,
+          "end_date": 1524585600
+        },
+        {
+          "id": 6165,
+          "start_date": 1524668400,
+          "end_date": 1524672000
+        },
+        {
+          "id": 6166,
+          "start_date": 1524754800,
+          "end_date": 1524758400
+        },
+        {
+          "id": 6167,
+          "start_date": 1524841200,
+          "end_date": 1524844800
+        },
+        {
+          "id": 6168,
+          "start_date": 1524927600,
+          "end_date": 1524931200
+        },
+        {
+          "id": 6169,
+          "start_date": 1525014000,
+          "end_date": 1525017600
+        },
+        {
+          "id": 6170,
+          "start_date": 1525100400,
+          "end_date": 1525104000
+        },
+        {
+          "id": 6171,
+          "start_date": 1525186800,
+          "end_date": 1525190400
+        },
+        {
+          "id": 6172,
+          "start_date": 1525273200,
+          "end_date": 1525276800
+        },
+        {
+          "id": 6173,
+          "start_date": 1525359600,
+          "end_date": 1525363200
+        },
+        {
+          "id": 6174,
+          "start_date": 1525446000,
+          "end_date": 1525449600
+        },
+        {
+          "id": 6175,
+          "start_date": 1525532400,
+          "end_date": 1525536000
+        },
+        {
+          "id": 6176,
+          "start_date": 1525618800,
+          "end_date": 1525622400
+        },
+        {
+          "id": 6177,
+          "start_date": 1525705200,
+          "end_date": 1525708800
+        },
+        {
+          "id": 6178,
+          "start_date": 1525791600,
+          "end_date": 1525795200
+        },
+        {
+          "id": 6179,
+          "start_date": 1525878000,
+          "end_date": 1525881600
+        },
+        {
+          "id": 6180,
+          "start_date": 1525964400,
+          "end_date": 1525968000
+        },
+        {
+          "id": 6181,
+          "start_date": 1526050800,
+          "end_date": 1526054400
+        },
+        {
+          "id": 6182,
+          "start_date": 1526137200,
+          "end_date": 1526140800
+        },
+        {
+          "id": 6183,
+          "start_date": 1526223600,
+          "end_date": 1526227200
+        },
+        {
+          "id": 6184,
+          "start_date": 1526310000,
+          "end_date": 1526313600
+        },
+        {
+          "id": 6185,
+          "start_date": 1526396400,
+          "end_date": 1526400000
+        },
+        {
+          "id": 6186,
+          "start_date": 1526482800,
+          "end_date": 1526486400
+        },
+        {
+          "id": 6187,
+          "start_date": 1526569200,
+          "end_date": 1526572800
+        },
+        {
+          "id": 6188,
+          "start_date": 1526655600,
+          "end_date": 1526659200
+        },
+        {
+          "id": 6189,
+          "start_date": 1526742000,
+          "end_date": 1526745600
+        },
+        {
+          "id": 6190,
+          "start_date": 1526828400,
+          "end_date": 1526832000
+        },
+        {
+          "id": 6191,
+          "start_date": 1526914800,
+          "end_date": 1526918400
+        },
+        {
+          "id": 6192,
+          "start_date": 1527001200,
+          "end_date": 1527004800
+        }
+      ],
+      "location": null,
+      "event_type": "CANVASS",
+      "created_date": 1515882924,
+      "modified_date": 1537280514,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/35/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 37,
+      "description": "Block-walking is the most effective way we can convince people to vote for Julie. There is no more effective way to let people know about Julie and her vision for the district than knocking doors. \n\nAlso, it is the most fun you can have to help Julie get elected. \n\nWe will fully train you and give you a list of houses to visit. \n\nThese are Democrats who are EXCITED to get a knock on the door reminding them to vote--and it means a lot that they see us out there working for their vote. All you'll need is a fully charged smart phone and some comfortable shoes. We'll provide the rest. \n\nGrab a friend, sign up for the shift that works for you, and don't worry--you aren't expected to work the entire shift, only what you're able to commit to that day.",
+      "timezone": "America/Chicago",
+      "title": "Cleburne: Block-walk for Julie!",
+      "summary": "The best way to reach voters and help Julie!",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/DSUpgR6UMAAyEsX_20180115053916405078.jpg",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 290,
+          "start_date": 1516464000,
+          "end_date": 1516478400
+        },
+        {
+          "id": 291,
+          "start_date": 1516478400,
+          "end_date": 1516489200
+        },
+        {
+          "id": 292,
+          "start_date": 1516489200,
+          "end_date": 1516503600
+        },
+        {
+          "id": 293,
+          "start_date": 1516550400,
+          "end_date": 1516564800
+        },
+        {
+          "id": 294,
+          "start_date": 1516564800,
+          "end_date": 1516575600
+        },
+        {
+          "id": 295,
+          "start_date": 1516575600,
+          "end_date": 1516590000
+        },
+        {
+          "id": 429,
+          "start_date": 1517673600,
+          "end_date": 1517695200
+        },
+        {
+          "id": 430,
+          "start_date": 1517695200,
+          "end_date": 1517706000
+        },
+        {
+          "id": 431,
+          "start_date": 1517760000,
+          "end_date": 1517774400
+        },
+        {
+          "id": 432,
+          "start_date": 1517774400,
+          "end_date": 1517785200
+        }
+      ],
+      "location": {
+        "venue": "",
+        "address_lines": [
+          "",
+          ""
+        ],
+        "locality": "",
+        "region": "",
+        "postal_code": "76058",
+        "location": {
+          "latitude": 32.4652204,
+          "longitude": -97.4273195
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "CANVASS",
+      "created_date": 1515995524,
+      "modified_date": 1537281326,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/37/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 41,
+      "description": "A new day really is on the horizon. Let's make sure that the women we elect in 2018 are committed to restoring our democracy! We're going to do that with good, old-fashioned person-to-person contact.\n\nWe'll meet up at campaign HQ the morning before the Women's March, distribute materials and go over the game plan, then head to the march! Let's do this!",
+      "timezone": "America/Chicago",
+      "title": "Canvass for Julie at the Women's March!",
+      "summary": "The best way to smash the patriarchy.",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/download_20180117154242367537.jpg",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 299,
+          "start_date": 1516462200,
+          "end_date": 1516478400
+        }
+      ],
+      "location": {
+        "venue": "Women's Marches Across the District!",
+        "address_lines": [
+          "",
+          ""
+        ],
+        "locality": "Austin",
+        "region": "TX",
+        "postal_code": "78702",
+        "location": {
+          "latitude": 30.2603535,
+          "longitude": -97.7145152
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "CANVASS",
+      "created_date": 1516203914,
+      "modified_date": 1537281328,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/41/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 42,
+      "description": "Join the Texting Team to text directly with Julie supporters about events and volunteer opportunities.\n\nBeing a member of the Texting Team means being part of a committed group who believe Texans in District 25 - from Austin, all the way from Wimberley to Burleson - deserves a Representative that will meet with constituents and actually listen to their concerns, and who will fight to make life better for every person in the district.\n\nWe use an online program to text supporters so you don't have to worry about using your own cell phone or phone number. \n \nWe identify and mobilize Julie supporters, volunteers, and voters all over the district -- helping us win in 2018. Join us!",
+      "timezone": "America/Chicago",
+      "title": "Send Texts for Julie!",
+      "summary": "Julie's campaign SMS tool means you can send messages to voters in the district from your computer, anywhere, anytime",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/DdAcTMIU0AAVopE_20180527160948777511.jpg",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 300,
+          "start_date": 1516550400,
+          "end_date": 1516579200
+        },
+        {
+          "id": 301,
+          "start_date": 1516636800,
+          "end_date": 1516665600
+        },
+        {
+          "id": 302,
+          "start_date": 1516723200,
+          "end_date": 1516752000
+        },
+        {
+          "id": 303,
+          "start_date": 1516809600,
+          "end_date": 1516838400
+        },
+        {
+          "id": 304,
+          "start_date": 1516896000,
+          "end_date": 1516924800
+        },
+        {
+          "id": 305,
+          "start_date": 1516982400,
+          "end_date": 1517011200
+        },
+        {
+          "id": 421,
+          "start_date": 1517504400,
+          "end_date": 1517522400
+        },
+        {
+          "id": 422,
+          "start_date": 1517590800,
+          "end_date": 1517608800
+        },
+        {
+          "id": 423,
+          "start_date": 1517677200,
+          "end_date": 1517695200
+        },
+        {
+          "id": 424,
+          "start_date": 1517763600,
+          "end_date": 1517781600
+        },
+        {
+          "id": 425,
+          "start_date": 1517850000,
+          "end_date": 1517868000
+        },
+        {
+          "id": 426,
+          "start_date": 1517936400,
+          "end_date": 1517954400
+        },
+        {
+          "id": 427,
+          "start_date": 1518022800,
+          "end_date": 1518040800
+        },
+        {
+          "id": 428,
+          "start_date": 1518109200,
+          "end_date": 1518127200
+        },
+        {
+          "id": 691,
+          "start_date": 1518195600,
+          "end_date": 1518213600
+        },
+        {
+          "id": 692,
+          "start_date": 1518282000,
+          "end_date": 1518300000
+        },
+        {
+          "id": 693,
+          "start_date": 1518368400,
+          "end_date": 1518386400
+        },
+        {
+          "id": 694,
+          "start_date": 1518454800,
+          "end_date": 1518472800
+        },
+        {
+          "id": 695,
+          "start_date": 1518541200,
+          "end_date": 1518559200
+        },
+        {
+          "id": 696,
+          "start_date": 1518627600,
+          "end_date": 1518645600
+        },
+        {
+          "id": 743,
+          "start_date": 1518714000,
+          "end_date": 1518732000
+        },
+        {
+          "id": 744,
+          "start_date": 1518800400,
+          "end_date": 1518818400
+        },
+        {
+          "id": 745,
+          "start_date": 1518886800,
+          "end_date": 1518904800
+        },
+        {
+          "id": 746,
+          "start_date": 1518973200,
+          "end_date": 1518991200
+        },
+        {
+          "id": 747,
+          "start_date": 1519059600,
+          "end_date": 1519077600
+        },
+        {
+          "id": 748,
+          "start_date": 1519146000,
+          "end_date": 1519164000
+        },
+        {
+          "id": 1008,
+          "start_date": 1519232400,
+          "end_date": 1519250400
+        },
+        {
+          "id": 1009,
+          "start_date": 1519318800,
+          "end_date": 1519336800
+        },
+        {
+          "id": 1010,
+          "start_date": 1519405200,
+          "end_date": 1519423200
+        },
+        {
+          "id": 1011,
+          "start_date": 1519491600,
+          "end_date": 1519509600
+        },
+        {
+          "id": 1012,
+          "start_date": 1519578000,
+          "end_date": 1519596000
+        },
+        {
+          "id": 1013,
+          "start_date": 1519664400,
+          "end_date": 1519682400
+        },
+        {
+          "id": 6193,
+          "start_date": 1520866800,
+          "end_date": 1520888400
+        },
+        {
+          "id": 6194,
+          "start_date": 1520953200,
+          "end_date": 1520974800
+        },
+        {
+          "id": 6195,
+          "start_date": 1521039600,
+          "end_date": 1521061200
+        },
+        {
+          "id": 6196,
+          "start_date": 1521126000,
+          "end_date": 1521147600
+        },
+        {
+          "id": 6197,
+          "start_date": 1521212400,
+          "end_date": 1521234000
+        },
+        {
+          "id": 6198,
+          "start_date": 1521298800,
+          "end_date": 1521320400
+        },
+        {
+          "id": 6199,
+          "start_date": 1521385200,
+          "end_date": 1521406800
+        },
+        {
+          "id": 6200,
+          "start_date": 1521471600,
+          "end_date": 1521493200
+        },
+        {
+          "id": 6201,
+          "start_date": 1521558000,
+          "end_date": 1521579600
+        },
+        {
+          "id": 6202,
+          "start_date": 1521644400,
+          "end_date": 1521666000
+        },
+        {
+          "id": 6203,
+          "start_date": 1521730800,
+          "end_date": 1521752400
+        },
+        {
+          "id": 6204,
+          "start_date": 1521817200,
+          "end_date": 1521838800
+        },
+        {
+          "id": 6205,
+          "start_date": 1521903600,
+          "end_date": 1521925200
+        },
+        {
+          "id": 6206,
+          "start_date": 1521990000,
+          "end_date": 1522011600
+        },
+        {
+          "id": 6207,
+          "start_date": 1522076400,
+          "end_date": 1522098000
+        },
+        {
+          "id": 6208,
+          "start_date": 1522162800,
+          "end_date": 1522184400
+        },
+        {
+          "id": 6209,
+          "start_date": 1522249200,
+          "end_date": 1522270800
+        },
+        {
+          "id": 6210,
+          "start_date": 1522335600,
+          "end_date": 1522357200
+        },
+        {
+          "id": 6211,
+          "start_date": 1522422000,
+          "end_date": 1522443600
+        },
+        {
+          "id": 6212,
+          "start_date": 1522508400,
+          "end_date": 1522530000
+        },
+        {
+          "id": 6213,
+          "start_date": 1522594800,
+          "end_date": 1522616400
+        },
+        {
+          "id": 6214,
+          "start_date": 1522681200,
+          "end_date": 1522702800
+        },
+        {
+          "id": 6215,
+          "start_date": 1522767600,
+          "end_date": 1522789200
+        },
+        {
+          "id": 6216,
+          "start_date": 1522854000,
+          "end_date": 1522875600
+        },
+        {
+          "id": 6217,
+          "start_date": 1522940400,
+          "end_date": 1522962000
+        },
+        {
+          "id": 6218,
+          "start_date": 1523026800,
+          "end_date": 1523048400
+        },
+        {
+          "id": 6219,
+          "start_date": 1523113200,
+          "end_date": 1523134800
+        },
+        {
+          "id": 6220,
+          "start_date": 1523199600,
+          "end_date": 1523221200
+        },
+        {
+          "id": 6221,
+          "start_date": 1523286000,
+          "end_date": 1523307600
+        },
+        {
+          "id": 6222,
+          "start_date": 1523372400,
+          "end_date": 1523394000
+        },
+        {
+          "id": 6223,
+          "start_date": 1523458800,
+          "end_date": 1523480400
+        },
+        {
+          "id": 6224,
+          "start_date": 1523545200,
+          "end_date": 1523566800
+        },
+        {
+          "id": 6225,
+          "start_date": 1523631600,
+          "end_date": 1523653200
+        },
+        {
+          "id": 6226,
+          "start_date": 1523718000,
+          "end_date": 1523739600
+        },
+        {
+          "id": 6227,
+          "start_date": 1523804400,
+          "end_date": 1523826000
+        },
+        {
+          "id": 6228,
+          "start_date": 1523890800,
+          "end_date": 1523912400
+        },
+        {
+          "id": 6229,
+          "start_date": 1523977200,
+          "end_date": 1523998800
+        },
+        {
+          "id": 6230,
+          "start_date": 1524063600,
+          "end_date": 1524085200
+        },
+        {
+          "id": 6231,
+          "start_date": 1524150000,
+          "end_date": 1524171600
+        },
+        {
+          "id": 6232,
+          "start_date": 1524236400,
+          "end_date": 1524258000
+        },
+        {
+          "id": 6233,
+          "start_date": 1524322800,
+          "end_date": 1524344400
+        },
+        {
+          "id": 6234,
+          "start_date": 1524409200,
+          "end_date": 1524430800
+        },
+        {
+          "id": 6235,
+          "start_date": 1524495600,
+          "end_date": 1524517200
+        },
+        {
+          "id": 6236,
+          "start_date": 1524582000,
+          "end_date": 1524603600
+        },
+        {
+          "id": 6237,
+          "start_date": 1524668400,
+          "end_date": 1524690000
+        },
+        {
+          "id": 6238,
+          "start_date": 1524754800,
+          "end_date": 1524776400
+        },
+        {
+          "id": 6239,
+          "start_date": 1524841200,
+          "end_date": 1524862800
+        },
+        {
+          "id": 6240,
+          "start_date": 1524927600,
+          "end_date": 1524949200
+        },
+        {
+          "id": 6241,
+          "start_date": 1525014000,
+          "end_date": 1525035600
+        },
+        {
+          "id": 6242,
+          "start_date": 1525100400,
+          "end_date": 1525122000
+        },
+        {
+          "id": 6243,
+          "start_date": 1525186800,
+          "end_date": 1525208400
+        },
+        {
+          "id": 6244,
+          "start_date": 1525273200,
+          "end_date": 1525294800
+        },
+        {
+          "id": 6245,
+          "start_date": 1525359600,
+          "end_date": 1525381200
+        },
+        {
+          "id": 6246,
+          "start_date": 1525446000,
+          "end_date": 1525467600
+        },
+        {
+          "id": 6247,
+          "start_date": 1525532400,
+          "end_date": 1525554000
+        },
+        {
+          "id": 6248,
+          "start_date": 1525618800,
+          "end_date": 1525640400
+        },
+        {
+          "id": 6249,
+          "start_date": 1525705200,
+          "end_date": 1525726800
+        },
+        {
+          "id": 6250,
+          "start_date": 1525791600,
+          "end_date": 1525813200
+        },
+        {
+          "id": 6251,
+          "start_date": 1525878000,
+          "end_date": 1525899600
+        },
+        {
+          "id": 6252,
+          "start_date": 1525964400,
+          "end_date": 1525986000
+        },
+        {
+          "id": 6253,
+          "start_date": 1526050800,
+          "end_date": 1526072400
+        },
+        {
+          "id": 6254,
+          "start_date": 1526137200,
+          "end_date": 1526158800
+        },
+        {
+          "id": 6255,
+          "start_date": 1526223600,
+          "end_date": 1526245200
+        },
+        {
+          "id": 6256,
+          "start_date": 1526310000,
+          "end_date": 1526331600
+        },
+        {
+          "id": 6257,
+          "start_date": 1526396400,
+          "end_date": 1526418000
+        },
+        {
+          "id": 6258,
+          "start_date": 1526482800,
+          "end_date": 1526504400
+        },
+        {
+          "id": 6259,
+          "start_date": 1526569200,
+          "end_date": 1526590800
+        },
+        {
+          "id": 6260,
+          "start_date": 1526655600,
+          "end_date": 1526677200
+        },
+        {
+          "id": 6261,
+          "start_date": 1526742000,
+          "end_date": 1526763600
+        },
+        {
+          "id": 6262,
+          "start_date": 1526828400,
+          "end_date": 1526850000
+        },
+        {
+          "id": 6263,
+          "start_date": 1526914800,
+          "end_date": 1526936400
+        },
+        {
+          "id": 6264,
+          "start_date": 1527001200,
+          "end_date": 1527022800
+        },
+        {
+          "id": 19014,
+          "start_date": 1527606000,
+          "end_date": 1527642000
+        },
+        {
+          "id": 19015,
+          "start_date": 1527692400,
+          "end_date": 1527728400
+        },
+        {
+          "id": 19016,
+          "start_date": 1527778800,
+          "end_date": 1527814800
+        },
+        {
+          "id": 19017,
+          "start_date": 1527865200,
+          "end_date": 1527901200
+        },
+        {
+          "id": 19018,
+          "start_date": 1527951600,
+          "end_date": 1527987600
+        },
+        {
+          "id": 19019,
+          "start_date": 1528038000,
+          "end_date": 1528074000
+        },
+        {
+          "id": 19020,
+          "start_date": 1528124400,
+          "end_date": 1528160400
+        },
+        {
+          "id": 19021,
+          "start_date": 1528210800,
+          "end_date": 1528246800
+        },
+        {
+          "id": 19022,
+          "start_date": 1528297200,
+          "end_date": 1528333200
+        },
+        {
+          "id": 19023,
+          "start_date": 1528383600,
+          "end_date": 1528419600
+        },
+        {
+          "id": 19024,
+          "start_date": 1528470000,
+          "end_date": 1528506000
+        },
+        {
+          "id": 19025,
+          "start_date": 1528556400,
+          "end_date": 1528592400
+        },
+        {
+          "id": 19026,
+          "start_date": 1528642800,
+          "end_date": 1528678800
+        },
+        {
+          "id": 38032,
+          "start_date": 1531753200,
+          "end_date": 1531789200
+        },
+        {
+          "id": 38033,
+          "start_date": 1531839600,
+          "end_date": 1531875600
+        },
+        {
+          "id": 38034,
+          "start_date": 1531926000,
+          "end_date": 1531962000
+        },
+        {
+          "id": 38035,
+          "start_date": 1532012400,
+          "end_date": 1532048400
+        },
+        {
+          "id": 38036,
+          "start_date": 1532098800,
+          "end_date": 1532134800
+        },
+        {
+          "id": 38037,
+          "start_date": 1532185200,
+          "end_date": 1532221200
+        },
+        {
+          "id": 38038,
+          "start_date": 1532271600,
+          "end_date": 1532307600
+        }
+      ],
+      "location": null,
+      "event_type": "OTHER",
+      "created_date": 1516219052,
+      "modified_date": 1537281134,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/42/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 49,
+      "description": "Block-walking is the most effective way we can convince people to vote for Julie. There is no more effective way to let people know about Julie and her vision for the district than knocking doors. \n\nAlso, it is the most fun you can have to help Julie get elected. \n\nWe will fully train you and give you a list of houses to visit. These are Democrats who are EXCITED to get a knock on the door reminding them to vote--and it means a lot that they see us out there working for their vote. \n\nAll you'll need is a fully charged smart phone and some comfortable shoes. We'll provide the rest. Sign up for the shift that works for you, but don't worry--you are NOT expected to work the entire shift, only what you're able to commit to that day. Typically block-walking shifts are two hours.",
+      "timezone": "America/Chicago",
+      "title": "Burleson: Block-walk for Julie!",
+      "summary": "The most effective way to reach voters.",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/IMG_1827_20180125061024845845.JPG",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 356,
+          "start_date": 1517068800,
+          "end_date": 1517092200
+        },
+        {
+          "id": 357,
+          "start_date": 1517155200,
+          "end_date": 1517178600
+        },
+        {
+          "id": 409,
+          "start_date": 1517673600,
+          "end_date": 1517688000
+        },
+        {
+          "id": 410,
+          "start_date": 1517686200,
+          "end_date": 1517695200
+        }
+      ],
+      "location": {
+        "venue": "Fuzzy's Tacos",
+        "address_lines": [
+          "",
+          ""
+        ],
+        "locality": "Burleson",
+        "region": "TX",
+        "postal_code": "76028",
+        "location": {
+          "latitude": 32.5297156,
+          "longitude": -97.286868
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "CANVASS",
+      "created_date": 1516861262,
+      "modified_date": 1537281371,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/49/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 58,
+      "description": "We've got a great spot to meet folks and spread the word about Julie's campaign in Cleburne! \n\nSpanish speakers and VDRs are needed especially. Sign up and we'll get you everything you need and go over the game plan. See you Saturday!",
+      "timezone": "America/Chicago",
+      "title": "Cleburne Canvass!",
+      "summary": "Spread the word about Julie in Cleburne",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/DSCN0250_20180201233755136303.JPG",
+      "sponsor": {
+        "id": 152,
+        "name": "Julie Oliver for Congress",
+        "slug": "julieoliver4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "TX",
+        "district": "25",
+        "candidate_name": "Julie Oliver",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/julieoliver4congress/",
+        "created_date": 1515604602,
+        "modified_date": 1534532489
+      },
+      "timeslots": [
+        {
+          "id": 608,
+          "start_date": 1517675400,
+          "end_date": 1517686200
+        }
+      ],
+      "location": {
+        "venue": "",
+        "address_lines": [
+          "",
+          ""
+        ],
+        "locality": "Cleburne",
+        "region": "TX",
+        "postal_code": "76033",
+        "location": {
+          "latitude": 32.3476438,
+          "longitude": -97.3866837
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "CANVASS",
+      "created_date": 1517528317,
+      "modified_date": 1537281331,
+      "browser_url": "https://events.mobilizeamerica.io/julieoliver4congress/event/58/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 61,
+      "description": "Let's hit the doors",
+      "timezone": "America/New_York",
+      "title": "Canvass for Barack",
+      "summary": "Knock some doors!",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/obama%20phone%20bank_20180205190543154324.jpg",
+      "sponsor": {
+        "id": 160,
+        "name": "Obama for Congress",
+        "slug": "obama4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": true,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/obama4congress/",
+        "created_date": 1517244783,
+        "modified_date": 1537998502
+      },
+      "timeslots": [
+        {
+          "id": 641,
+          "start_date": 1517929200,
+          "end_date": 1517940000
+        },
+        {
+          "id": 711,
+          "start_date": 1518282000,
+          "end_date": 1518292800
+        },
+        {
+          "id": 993,
+          "start_date": 1518886800,
+          "end_date": 1518897600
+        },
+        {
+          "id": 998,
+          "start_date": 1518897600,
+          "end_date": 1518908400
+        }
+      ],
+      "location": null,
+      "event_type": "CANVASS",
+      "created_date": 1517857611,
+      "modified_date": 1537280508,
+      "browser_url": "https://events.mobilizeamerica.io/obama4congress/event/61/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 71,
+      "description": "canvass kickoff",
+      "timezone": "America/New_York",
+      "title": "Miami Beach Canvass Kickoff",
+      "summary": "",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/fight%20for%20net%20neutrality_20180209190017262941.jpg",
+      "sponsor": {
+        "id": 160,
+        "name": "Obama for Congress",
+        "slug": "obama4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": true,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/obama4congress/",
+        "created_date": 1517244783,
+        "modified_date": 1537998502
+      },
+      "timeslots": [
+        {
+          "id": 713,
+          "start_date": 1518879600,
+          "end_date": 1518912000
+        }
+      ],
+      "location": {
+        "venue": "",
+        "address_lines": [
+          "1609 S. Bayshore Dr.",
+          "Miami"
+        ],
+        "locality": "Miami",
+        "region": "",
+        "postal_code": "33133",
+        "location": {
+          "latitude": 25.742907,
+          "longitude": -80.217549
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "CANVASS",
+      "created_date": 1518202826,
+      "modified_date": 1537280508,
+      "browser_url": "https://events.mobilizeamerica.io/obama4congress/event/71/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 72,
+      "description": "We're going to elect Max",
+      "timezone": "America/New_York",
+      "title": "Let's go knock doors",
+      "summary": "",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/obama_texting_gif_20180209191058531521.gif",
+      "sponsor": {
+        "id": 160,
+        "name": "Obama for Congress",
+        "slug": "obama4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": true,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/obama4congress/",
+        "created_date": 1517244783,
+        "modified_date": 1537998502
+      },
+      "timeslots": [
+        {
+          "id": 714,
+          "start_date": 1518282000,
+          "end_date": 1518292800
+        },
+        {
+          "id": 715,
+          "start_date": 1518379200,
+          "end_date": 1518390000
+        },
+        {
+          "id": 769,
+          "start_date": 1518886800,
+          "end_date": 1518897600
+        },
+        {
+          "id": 770,
+          "start_date": 1518973200,
+          "end_date": 1518984000
+        }
+      ],
+      "location": null,
+      "event_type": "CANVASS",
+      "created_date": 1518203504,
+      "modified_date": 1537280507,
+      "browser_url": "https://events.mobilizeamerica.io/obama4congress/event/72/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 73,
+      "description": "The movement to elect Jess King to Congress is growing. During the first weekend of January, over 300 people attended 16 house parties across the entire 16th district. So many people signed up to hold house parties in February that we have to go even bigger this month.\n\nOn February 18th and 19th, we’re hosting 5 big campaign events in 5 key areas. This is a place for new and old supporters to meet Jess, learn about our grassroots campaign, meet your neighbors, and get ready for massive voter outreach effort at the end of the month.\n\nWe’ll be recruiting volunteers for our Call Every Voter February Phonebank on February 24th & 25th. After the Supreme Court releases the new PA Congressional map, we’re going to call every single Democratic voter in the new district - in one weekend. You read that right. And we’re going to need to recruit a lot of volunteers to do it.\n\nSo join us in Ephrata at the Library Exploratorium, bring your friends, and get ready to build this movement even bigger.",
+      "timezone": "America/New_York",
+      "title": "Akron / Ephrata: Meet Jess King",
+      "summary": "America is for all of us",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/20121143_331763743947008_7711689164682778386_o%20%281%29_20180209194359623768.jpg",
+      "sponsor": {
+        "id": 177,
+        "name": "Jess King for Congress",
+        "slug": "jesskingforcongress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "PA",
+        "district": "11",
+        "candidate_name": "Jess King",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/jesskingforcongress/",
+        "created_date": 1517961417,
+        "modified_date": 1534532490
+      },
+      "timeslots": [
+        {
+          "id": 716,
+          "start_date": 1518973200,
+          "end_date": 1518980400
+        }
+      ],
+      "location": {
+        "venue": "Ephrata Public Library Exploratorium",
+        "address_lines": [
+          "560 S Reading Rd",
+          ""
+        ],
+        "locality": "Ephrata",
+        "region": "PA",
+        "postal_code": "17522",
+        "location": {
+          "latitude": 40.1730632,
+          "longitude": -76.1959315
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "COMMUNITY",
+      "created_date": 1518205391,
+      "modified_date": 1537281332,
+      "browser_url": "https://events.mobilizeamerica.io/jesskingforcongress/event/73/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 74,
+      "description": "The movement to elect Jess King to Congress is growing. During the first weekend of January, over 300 people attended 16 house parties across the entire 16th district. So many people signed up to hold house parties in February that we have to go even bigger this month.\n\nOn February 18th and 19th, we’re hosting 5 big campaign events in 5 key areas. This is a place for new and old supporters to meet Jess, learn about our grassroots campaign, meet your neighbors, and get ready for massive voter outreach effort at the end of the month.\n\nWe’ll be recruiting volunteers for our Call Every Voter February Phonebank on February 24th & 25th. After the Supreme Court releases the new PA Congressional map, we’re going to call every single Democratic voter in the new district - in one weekend. You read that right. And we’re going to need to recruit a lot of volunteers to do it.\n\nSo join us in Manheim Township, bring your friends, and get ready to build this movement even bigger.",
+      "timezone": "America/New_York",
+      "title": "Manheim Township: Meet Jess King",
+      "summary": "America is for all of us",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/20121143_331763743947008_7711689164682778386_o%20%281%29_20180209194634254746.jpg",
+      "sponsor": {
+        "id": 177,
+        "name": "Jess King for Congress",
+        "slug": "jesskingforcongress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "PA",
+        "district": "11",
+        "candidate_name": "Jess King",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/jesskingforcongress/",
+        "created_date": 1517961417,
+        "modified_date": 1534532490
+      },
+      "timeslots": [
+        {
+          "id": 717,
+          "start_date": 1518976800,
+          "end_date": 1518984000
+        }
+      ],
+      "location": {
+        "venue": "Grandview United Methodist Church",
+        "address_lines": [
+          "888 Pleasure Road",
+          ""
+        ],
+        "locality": "Lancaster",
+        "region": "PA",
+        "postal_code": "17601",
+        "location": {
+          "latitude": 40.0588134,
+          "longitude": -76.2898618
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "COMMUNITY",
+      "created_date": 1518205659,
+      "modified_date": 1537281372,
+      "browser_url": "https://events.mobilizeamerica.io/jesskingforcongress/event/74/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 75,
+      "description": "The movement to elect Jess King to Congress is growing. During the first weekend of January, over 300 people attended 16 house parties across the entire 16th district. So many people signed up to hold house parties in February that we have to go even bigger this month.\n\nOn February 18th & 19th, we're hosting 5 big campaign events in 5 key areas. This is a place for new and old supporters to meet Jess, learn about our grassroots campaign, meet your neighbors, and get ready for massive voter outreach effort at the end of the month.\n\nWe’ll be recruiting volunteers for our Call Every Voter February Phonebank on February 24th & 25th. After the Supreme Court releases the new PA Congressional map, we’re going to call every single Democratic voter in the new district - in one weekend. You read that right. And we’re going to need to recruit a lot of volunteers to do it.\n\nSo join us in Lancaster City on February 18th, bring your friends, and get ready to build this movement even bigger.",
+      "timezone": "America/New_York",
+      "title": "Lancaster City: Meet Jess King",
+      "summary": "America is for all of us",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/20121143_331763743947008_7711689164682778386_o%20%281%29_20180209195346649704.jpg",
+      "sponsor": {
+        "id": 177,
+        "name": "Jess King for Congress",
+        "slug": "jesskingforcongress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "PA",
+        "district": "11",
+        "candidate_name": "Jess King",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/jesskingforcongress/",
+        "created_date": 1517961417,
+        "modified_date": 1534532490
+      },
+      "timeslots": [
+        {
+          "id": 718,
+          "start_date": 1518984000,
+          "end_date": 1518991200
+        }
+      ],
+      "location": {
+        "venue": "Mulberry Art Studios",
+        "address_lines": [
+          "21 N Mulberry St",
+          ""
+        ],
+        "locality": "Lancaster",
+        "region": "PA",
+        "postal_code": "17603",
+        "location": {
+          "latitude": 40.0380781,
+          "longitude": -76.3104021
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "COMMUNITY",
+      "created_date": 1518206092,
+      "modified_date": 1537281372,
+      "browser_url": "https://events.mobilizeamerica.io/jesskingforcongress/event/75/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 76,
+      "description": "The movement to elect Jess King to Congress is growing. During the first weekend of January, over 300 people attended 16 house parties across the entire 16th district. So many people signed up to hold house parties in February that we have to go even bigger this month.\n\nOn February 18th and 19th, we’re hosting 5 big campaign events in 5 key areas. This is a place for new and old supporters to meet Jess, learn about our grassroots campaign, meet your neighbors, and get ready for massive voter outreach effort at the end of the month.\n\nJoe Hillman & Friends will be playing some down home bluegrass and Jess King will speak about her Congressional campaign and her vision of an America that works for all of us.\n\nSo join us at Kennett Brewing Company, bring your friends, listen to some great tunes, and learn how we can elect a working mom to Congress in 2018.",
+      "timezone": "America/New_York",
+      "title": "Jess King for Congress & The Joe Hillman Band",
+      "summary": "America is for all of us",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/20121143_331763743947008_7711689164682778386_o%20%281%29_20180209195608521773.jpg",
+      "sponsor": {
+        "id": 177,
+        "name": "Jess King for Congress",
+        "slug": "jesskingforcongress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "PA",
+        "district": "11",
+        "candidate_name": "Jess King",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/jesskingforcongress/",
+        "created_date": 1517961417,
+        "modified_date": 1534532490
+      },
+      "timeslots": [
+        {
+          "id": 719,
+          "start_date": 1518994800,
+          "end_date": 1519002000
+        }
+      ],
+      "location": {
+        "venue": "Kennett Brewing Company",
+        "address_lines": [
+          "109 S Broad St, Ste 2",
+          ""
+        ],
+        "locality": "Kennett Square",
+        "region": "PA",
+        "postal_code": "19348",
+        "location": {
+          "latitude": 39.846689,
+          "longitude": -75.7098929
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "COMMUNITY",
+      "created_date": 1518206237,
+      "modified_date": 1537281378,
+      "browser_url": "https://events.mobilizeamerica.io/jesskingforcongress/event/76/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 77,
+      "description": "The movement to elect Jess King to Congress is growing. During the first weekend of January, over 300 people attended 16 house parties across the entire 16th district. So many people signed up to hold house parties in February that we have to go even bigger this month.\n\nOn February 18th and 19th, we’re hosting 5 big campaign events in 5 key areas. This is a place for new and old supporters to meet Jess, learn about our grassroots campaign, meet your neighbors, and get ready for massive voter outreach effort at the end of the month.\n\nWe’ll be recruiting volunteers for our Call Every Voter February Phonebank on February 24th & 25th. After the Supreme Court releases the new PA Congressional map, we’re going to call every single Democratic voter in the new district - in one weekend. You read that right. And we’re going to need to recruit a lot of volunteers to do it.\n\nSo join us in Hempfield, bring your friends, and get ready to build this movement even bigger.",
+      "timezone": "America/New_York",
+      "title": "Hempfield: Meet Jess King",
+      "summary": "America is for all of us",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/20121143_331763743947008_7711689164682778386_o%20%281%29_20180209195830226346.jpg",
+      "sponsor": {
+        "id": 177,
+        "name": "Jess King for Congress",
+        "slug": "jesskingforcongress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "PA",
+        "district": "11",
+        "candidate_name": "Jess King",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/jesskingforcongress/",
+        "created_date": 1517961417,
+        "modified_date": 1534532490
+      },
+      "timeslots": [
+        {
+          "id": 720,
+          "start_date": 1519083000,
+          "end_date": 1519090200
+        }
+      ],
+      "location": {
+        "venue": "Mountville Area Community Center",
+        "address_lines": [
+          "120 College Ave",
+          ""
+        ],
+        "locality": "Mountville",
+        "region": "PA",
+        "postal_code": "17554",
+        "location": {
+          "latitude": 40.0425966,
+          "longitude": -76.426616
+        },
+        "congressional_district": null,
+        "state_leg_district": null,
+        "state_senate_district": null
+      },
+      "event_type": "COMMUNITY",
+      "created_date": 1518206366,
+      "modified_date": 1537281377,
+      "browser_url": "https://events.mobilizeamerica.io/jesskingforcongress/event/77/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 78,
+      "description": "You can make calls for Jess anytime, anywhere using our digital dialer.\n\n\nPennsylvania’s new Congressional districts are finally out and I’ll be honest: it’s a tough map. There are more Republicans than Democrats in our new district, PA-11.\n\nBut if there was ever a year for a campaign like ours to win, it’s this year. If there were ever a candidate to do it, it’s Jess, who has spent her whole life fighting for working families right here in South Central Pennsylvania.\n\nEvery vote will matter in November. We need to hit the ground running at full speed. That’s why we’re going to call every single Democratic voter in our new district - in one weekend. You read that right. If we recruit 500 volunteers to do 500 phonebanking shifts, we can call every single Democratic voter in one weekend. Sign up and let's get it done.",
+      "timezone": "America/New_York",
+      "title": "Call Every Voter Phonebank",
+      "summary": "We're going to call every voter in one weekend. Are you ready?",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/0P1A1530_20180209202243709289.JPG",
+      "sponsor": {
+        "id": 177,
+        "name": "Jess King for Congress",
+        "slug": "jesskingforcongress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "PA",
+        "district": "11",
+        "candidate_name": "Jess King",
+        "race_type": "CONGRESSIONAL",
+        "event_feed_url": "https://events.mobilizeamerica.io/jesskingforcongress/",
+        "created_date": 1517961417,
+        "modified_date": 1534532490
+      },
+      "timeslots": [
+        {
+          "id": 1148,
+          "start_date": 1519398000,
+          "end_date": 1519405200
+        },
+        {
+          "id": 1149,
+          "start_date": 1519405200,
+          "end_date": 1519412400
+        },
+        {
+          "id": 1150,
+          "start_date": 1519412400,
+          "end_date": 1519419600
+        },
+        {
+          "id": 1151,
+          "start_date": 1519419600,
+          "end_date": 1519426800
+        },
+        {
+          "id": 1152,
+          "start_date": 1519426800,
+          "end_date": 1519434000
+        },
+        {
+          "id": 721,
+          "start_date": 1519484400,
+          "end_date": 1519491600
+        },
+        {
+          "id": 722,
+          "start_date": 1519491600,
+          "end_date": 1519498800
+        },
+        {
+          "id": 723,
+          "start_date": 1519498800,
+          "end_date": 1519506000
+        },
+        {
+          "id": 724,
+          "start_date": 1519506000,
+          "end_date": 1519513200
+        },
+        {
+          "id": 725,
+          "start_date": 1519513200,
+          "end_date": 1519520400
+        },
+        {
+          "id": 726,
+          "start_date": 1519570800,
+          "end_date": 1519578000
+        },
+        {
+          "id": 727,
+          "start_date": 1519578000,
+          "end_date": 1519585200
+        },
+        {
+          "id": 728,
+          "start_date": 1519585200,
+          "end_date": 1519592400
+        },
+        {
+          "id": 729,
+          "start_date": 1519592400,
+          "end_date": 1519599600
+        },
+        {
+          "id": 730,
+          "start_date": 1519599600,
+          "end_date": 1519606800
+        }
+      ],
+      "location": null,
+      "event_type": "PHONE_BANK",
+      "created_date": 1518208231,
+      "modified_date": 1537280514,
+      "browser_url": "https://events.mobilizeamerica.io/jesskingforcongress/event/78/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 79,
+      "description": "We need your help!",
+      "timezone": "America/New_York",
+      "title": "Saturday phone bank",
+      "summary": "Let's make some calls!",
+      "featured_image_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/obama%20phone%20bank_20180209221231975303.jpg",
+      "sponsor": {
+        "id": 160,
+        "name": "Obama for Congress",
+        "slug": "obama4congress",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": true,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/obama4congress/",
+        "created_date": 1517244783,
+        "modified_date": 1537998502
+      },
+      "timeslots": [
+        {
+          "id": 731,
+          "start_date": 1518274800,
+          "end_date": 1518285600
+        },
+        {
+          "id": 994,
+          "start_date": 1518886800,
+          "end_date": 1518897600
+        }
+      ],
+      "location": null,
+      "event_type": "PHONE_BANK",
+      "created_date": 1518214416,
+      "modified_date": 1537280509,
+      "browser_url": "https://events.mobilizeamerica.io/obama4congress/event/79/",
+      "high_priority": null,
+      "contact": null
+    },
+    {
+      "id": 80,
+      "description": "test...",
+      "timezone": "America/New_York",
+      "title": "Test",
+      "summary": "testing...",
+      "featured_image_url": "",
+      "sponsor": {
+        "id": 159,
+        "name": "Swing Left",
+        "slug": "swingleft",
+        "is_coordinated": true,
+        "is_independent": false,
+        "is_primary_campaign": false,
+        "state": "",
+        "district": "",
+        "candidate_name": "",
+        "race_type": null,
+        "event_feed_url": "https://events.mobilizeamerica.io/swingleft/",
+        "created_date": 1516984264,
+        "modified_date": 1537549404
+      },
+      "timeslots": [
+        {
+          "id": 732,
+          "start_date": 1518456600,
+          "end_date": 1518460200
+        }
+      ],
+      "location": null,
+      "event_type": "PHONE_BANK",
+      "created_date": 1518223030,
+      "modified_date": 1537280463,
+      "browser_url": "https://events.mobilizeamerica.io/swingleft/event/80/",
+      "high_priority": null,
+      "contact": null
+    }
+  ]
+}

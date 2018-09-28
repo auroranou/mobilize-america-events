@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { fetchEvents } from './events.actions';
 import EventsList from './EventsList';
+import EventsMap from '../map/EventsMap';
 
 /**
  * Component for connecting to the events state in Redux
@@ -10,12 +11,12 @@ import EventsList from './EventsList';
  */
 class EventsLoader extends React.PureComponent {
   static propTypes = {
-    events: PropTypes.array.isRequired,
     fetchEvents: PropTypes.func,
-    isLoading: PropTypes.bool.isRequired
   };
 
-  componentWillMount() {
+  constructor(props) {
+    super(props);
+
     const { events, fetchEvents, isLoading } = this.props;
     if ((!events || !events.length) && !isLoading) {
       fetchEvents();
@@ -24,13 +25,12 @@ class EventsLoader extends React.PureComponent {
 
   render() {
     return (
-      <EventsList events={this.props.events} />
+      <div className='events-wrapper'>
+        <EventsList />
+        <EventsMap />
+      </div>
     );
   }
-}
-
-const mapStateToProps = (state) => {
-  return state.eventsReducer;
 }
 
 const mapDispatchToProps = {
@@ -38,6 +38,6 @@ const mapDispatchToProps = {
 };
 
 export default connect(
-  mapStateToProps,
+  null,
   mapDispatchToProps
 )(EventsLoader);

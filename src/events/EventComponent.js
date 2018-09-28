@@ -70,8 +70,16 @@ export const eventPropTypes = {
 
 class EventComponent extends React.PureComponent {
   static propTypes = {
-    event: PropTypes.shape(eventPropTypes)
+    event: PropTypes.shape(eventPropTypes).isRequired,
+    isSelected: PropTypes.bool,
+    onSelected: PropTypes.func
   };
+
+  constructor(props) {
+    super(props);
+
+    this.onViewDetailsClick = this.onViewDetailsClick.bind(this);
+  }
 
   render() {
     const { event } = this.props;
@@ -79,10 +87,14 @@ class EventComponent extends React.PureComponent {
     const eventType = this.getEventTypeText(event.event_type);
 
     return (
-      <div className='event-component'>
+      <div
+        className='event-component'
+        id={`event-${event.id}`}
+      >
         <h3 className='event-component__title'>
           {event.title}
         </h3>
+        {this.props.isSelected && <p>SELECTED</p>}
         <span className={`event-component__badge badge--${eventType.toLowerCase()}`}>
           {eventType}
         </span>
@@ -95,6 +107,13 @@ class EventComponent extends React.PureComponent {
           {event.summary}
         </p>
         {!isVirtualEvent && this.getEventAddress(event.location)}
+        <button
+          onClick={this.onViewDetailsClick}
+          type='button'
+          value={event.id}
+        >
+          View details
+        </button>
       </div>
     );
   }
@@ -104,11 +123,16 @@ class EventComponent extends React.PureComponent {
   }
 
   getEventAddress(location) {
-    const address = location.address_lines.map((l, i) => <p key={i}>{l}</p>);
-
     return (
       <div className='event-component__address'>
-        {address}
+        {location.venue && (
+          <p>
+            {location.venue}
+          </p>
+        )}
+        {location.address_lines.map((l, i) => (
+          <p key={i}>{l}</p>
+        ))}
         <p>
           {location.locality && location.locality}
           {location.locality && location.region && ', '}
@@ -117,7 +141,12 @@ class EventComponent extends React.PureComponent {
           {location.zip_code && location.zip_code}
         </p>
       </div>
-    )
+    );
+  }
+
+  onViewDetailsClick(e) {
+    e.preventDefault();
+    this.props.onSelected(e.target.value);
   }
 }
 

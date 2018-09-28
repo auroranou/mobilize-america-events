@@ -1,4 +1,4 @@
-import { REQUEST_EVENTS, RECEIVE_EVENTS } from './events.actions';
+import { REQUEST_EVENTS, RECEIVE_EVENTS, SELECT_EVENT } from './events.actions';
 
 export const eventsReducer = (state, action) => {
   switch (action.type) {
@@ -6,19 +6,29 @@ export const eventsReducer = (state, action) => {
       return {
         ...state,
         isLoading: true,
+        selectedEventId: null
       };
 
     case RECEIVE_EVENTS:
+      const events = action.payload;
       return {
         ...state,
         isLoading: false,
-        events: action.payload
+        events,
+        selectedEventId: events.length ? events[0].id : null
+      };
+
+    case SELECT_EVENT:
+      return {
+        ...state,
+        selectedEventId: action.payload
       };
 
     default:
       return {
         isLoading: false,
-        events: []
+        events: [],
+        selectedEventId: null
       };
   }
 }
