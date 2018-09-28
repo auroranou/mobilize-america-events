@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { selectEventOnList } from '../events/events.actions';
 import { eventPropTypes } from '../events/EventComponent';
+import MapMarker from './MapMarker';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 class EventsMap extends React.PureComponent {
@@ -20,11 +21,11 @@ class EventsMap extends React.PureComponent {
     this.state = {
       popup: null,
       viewport: {
-        width: 600,
-        height: 800,
-        latitude: 40.7128,
-        longitude: -74.0060,
-        zoom: 8
+        width: 400,
+        height: 500,
+        latitude: 39.8283,
+        longitude: -98.5795,
+        zoom: 3
       }
     };
 
@@ -81,13 +82,7 @@ class EventsMap extends React.PureComponent {
         latitude={e.location.location.latitude}
         longitude={e.location.location.longitude}
       >
-        <button
-          onClick={this.onMarkerClick}
-          type='button'
-          value={e.id}
-        >
-          *
-        </button>
+        <MapMarker onClick={this.onMarkerClick.bind(this, e.id)} />
       </Marker>
     ));
   }
@@ -105,11 +100,11 @@ class EventsMap extends React.PureComponent {
     )
   }
 
-  onMarkerClick(e) {
+  onMarkerClick(eventId, e) {
     e.preventDefault();
-    this.props.selectEventOnList(e.target.value);
+    this.props.selectEventOnList(eventId);
 
-    const selectedEvent = this.props.events.find(ev => ev.id.toString() === e.target.value.toString());
+    const selectedEvent = this.props.events.find(ev => ev.id.toString() === eventId.toString());
     this.setState({
       ...this.state,
       popup: selectedEvent
