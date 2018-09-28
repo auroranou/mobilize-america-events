@@ -68,8 +68,13 @@ p {
   padding: 0 12px;
 }
 
-.events-list {
+.events-list,
+.empty-state-wrapper {
   flex-basis: 50%;
+}
+
+.empty-state-wrapper {
+  text-align: center;
 }
 
 .events-map-wrapper {
@@ -225,6 +230,27 @@ p {
 .mapboxgl-ctrl.mapboxgl-ctrl-group {
   float: left;
   margin: 12px;
+}
+
+.alert {
+  align-items: baseline;
+  border: 1px solid var(--red);
+  border-radius: 4px;
+  color: var(--red);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 auto 12px;
+  width: 50vw;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.alert button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
 }
 
 /* Utility classes */
