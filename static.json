@@ -1,0 +1,8 @@
+{
+  "root": "build/",
+  "proxies": {
+    "/api": {
+      "origin": "https://events.mobilizeamerica.io/api"
+    }
+  }
+}
