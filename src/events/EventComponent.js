@@ -91,7 +91,7 @@ class EventComponent extends React.PureComponent {
 
     return (
       <span className='bold'>
-        {moment(timeslots[0].start_date).format(LONG_DATE_FORMAT)}
+        {moment.unix(timeslots[0].start_date).format(LONG_DATE_FORMAT)}
       </span>
     );
   }
@@ -156,12 +156,12 @@ class EventComponent extends React.PureComponent {
             >
               <span className='bold'>Start: </span>
               <span>
-                {moment(t.start_date).format('dddd, MMMM Do YYYY, h:mm a')}
+                {moment.unix(t.start_date).format('dddd, MMMM Do YYYY, h:mm a')}
               </span>
               <br />
               <span className='bold'>End: </span>
               <span>
-                {moment(t.end_date).format('dddd, MMMM Do YYYY, h:mm a')}
+                {moment.unix(t.end_date).format('dddd, MMMM Do YYYY, h:mm a')}
               </span>
             </div>
           ))}
